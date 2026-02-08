@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Tracker for LEGO Zane Minifigure Collection"
+    />
+    <meta property="og:title" content="Zane Minifigure Tracker" />
+    <meta property="og:description" content="LEGO Zane Minifigure Tracker" />
+    <meta property="og:url" content="https:/" />
+    <title>Zane Minifigure Tracker</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link href="PTCGP.styles.css" rel="stylesheet" />
+
+    <!-- Tracker Styles -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header-line {
+        border: 0;
+        height: 2px; 
+        background: #534a4a;
+        width: 100%;
+        margin: 10px auto 20px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 150px);
+        gap: 12px;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 12px;
+        padding: 12px;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        transition: 0.2s;
+        user-select: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      .owned {
+        background: #c8f7c5;
+        text-decoration: line-through;
+      }
+
+      .count {
+        text-align: center;
+        margin-top: 15px;
+        font-weight: bold;
+      }
+
+      .minifig-img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 8px;
+      }
+
+      .figure-name {
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+
+      .series,
+      .rarity {
+        font-size: 0.9em;
+        color: #555;
+      }
+
+      .bricklink-link {
+  display: none;
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card:hover .bricklink-link {
+  display: block;
+}
+
+    </style>
+  </head>
+
+  <body>
+
+      <h1>Zane Minifigure Tracker</h1>
+      <hr class="header-line" />
+      <div class="count" id="count"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+      An unhandled error has occurred.
+      <a href="" class="reload">Reload</a>
+      <a class="dismiss">🗙</a>
+    </div>
+
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <!-- Tracker Script -->
+    <script>
+      let figures = [];
+      let owned = JSON.parse(localStorage.getItem("ownedZanes") || "{}");
+      const grid = document.getElementById("grid");
+
+      function save() {
+        localStorage.setItem("ownedZanes", JSON.stringify(owned));
+      }
+
+      function updateCount() {
+        const total = figures.length;
+        const have = Object.values(owned).filter((v) => v).length;
+        document.getElementById("count").textContent =
+          `${have} / ${total} collected`;
+      }
+
+      // Load figures from JSON
+      fetch("data/figures.json")
+        .then((response) => response.json())
+        .then((data) => {
+          figures = data;
+
+          figures.forEach((figure) => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            // Image is automatically linked using FigureID
+            card.innerHTML = `
+  <img src="images/${figure.FigureID}.png" alt="${figure.FigureName}" class="minifig-img" />
+  <div class="figure-name">${figure.FigureName}</div>
+  <div class="series">${figure.Series}</div>
+  <div class="rarity">${figure.Rarity}</div>
+  <a href="https://www.bricklink.com/v2/catalog/catalogitem.page?M=${figure.FigureID}" 
+   target="_blank" 
+   class="bricklink-link"
+   onclick="event.stopPropagation();">View on BrickLink</a>
+
+`;
+
+
+            if (owned[figure.FigureID]) card.classList.add("owned");
+
+            card.onclick = () => {
+              owned[figure.FigureID] = !owned[figure.FigureID];
+              card.classList.toggle("owned");
+              save();
+              updateCount();
+            };
+
+            grid.appendChild(card);
+          });
+
+          updateCount();
+        })
+        .catch((err) => console.error("Failed to load figures.json:", err));
+    </script>
+  </body>
+</html>
