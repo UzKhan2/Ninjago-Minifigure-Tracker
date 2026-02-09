@@ -151,7 +151,7 @@
 
             // Image is automatically linked using FigureID
             card.innerHTML = `
-  <img src="images/${figure.FigureID}.png" alt="${figure.FigureName}" class="minifig-img" />
+  <img src="images/${figure.FigureID.toLowerCase()}.png" alt="${figure.FigureName}" class="minifig-img" />
   <div class="figure-name">${figure.FigureName}</div>
   <div class="series">${figure.Series}</div>
   <div class="rarity">${figure.Rarity}</div>
