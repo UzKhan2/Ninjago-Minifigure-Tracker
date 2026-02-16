@@ -380,8 +380,8 @@
               <div>${item.Sets} Sets</div>
               <div>${item.Rarity}</div>
               <div class="links">
-                ${bricklink ? `<a href="${bricklink}" target="_blank">BrickLink</a>` : `<span class="disabled">BrickLink</span>`}
-                ${bricksetLink ? `<a href="${bricksetLink}" target="_blank">BrickSet</a>` : `<span class="disabled">BrickSet</span>`}
+                ${bricklink ? `<a href="${bricklink}" target="_blank" onclick="event.stopPropagation()">BrickLink</a>` : `<span class="disabled">BrickLink</span>`}
+                ${bricksetLink ? `<a href="${bricksetLink}" target="_blank" onclick="event.stopPropagation()">BrickSet</a>` : `<span class="disabled">BrickSet</span>`}
               </div>
             </div>
             ${item.Rarity ? `<div class="rarity-badge ${rarityClasses.badge}">${item.Rarity}</div>` : ""}
