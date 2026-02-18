@@ -68,21 +68,76 @@
         border: 1px solid #555;
       }
 
-      /* ================= SETTINGS PANEL ================= */
+      /* ================= SETTINGS MODAL ================= */
+
+      .modal-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .modal-overlay.show {
+        display: block;
+        opacity: 1;
+      }
 
       .settings-panel {
         display: none;
-        margin: 15px auto;
-        padding: 15px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.8);
         max-width: 400px;
+        width: 90%;
         background: white;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        padding: 20px;
+        z-index: 1001;
         text-align: center;
+        opacity: 0;
+        transition:
+          opacity 0.3s ease,
+          transform 0.3s ease;
+      }
+
+      .settings-panel.show {
+        display: block;
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
       }
 
       body.dark .settings-panel {
         background: #2c2c2c;
+        color: white;
+      }
+
+      .settings-panel h3 {
+        margin-top: 0;
+      }
+
+      .settings-panel button,
+      .settings-panel input[type="file"] {
+        margin: 8px 0;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .settings-panel .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 12px;
+        background: transparent;
+        border: none;
+        font-size: 1.3em;
+        cursor: pointer;
+        color: inherit;
       }
 
       /* ================= PROGRESS BAR ================= */
@@ -330,12 +385,21 @@
       </select>
     </div>
 
+    <!-- Modal Overlay -->
+    <div
+      class="modal-overlay"
+      id="modalOverlay"
+      onclick="closeSettings()"
+    ></div>
+
+    <!-- Settings Panel Modal -->
     <div class="settings-panel" id="settingsPanel">
+      <button class="close-btn" onclick="closeSettings()">×</button>
       <h3>Settings</h3>
-      <button onclick="toggleDarkMode()">Dark / Light Mode</button><br /><br />
-      <button onclick="markAllOwned()">Mark All Owned</button><br /><br />
-      <button onclick="resetAll()">Reset All</button><br /><br />
-      <button onclick="exportCollection()">Export JSON</button><br /><br />
+      <button onclick="toggleDarkMode()">Dark / Light Mode</button><br />
+      <button onclick="markAllOwned()">Mark All Owned</button><br />
+      <button onclick="resetAll()">Reset All</button><br />
+      <button onclick="exportCollection()">Export JSON</button><br />
       <input type="file" onchange="importCollection(event)" />
     </div>
 
@@ -347,7 +411,7 @@
     <div class="grid" id="grid"></div>
 
     <script>
-      /* FULL FEATURED JS (unchanged logic, all features intact) */
+      /* FULL JS LOGIC (with modal animation) */
 
       let items = [];
       let currentType = "figures";
@@ -384,59 +448,46 @@
 
       function filterAndRender() {
         let filtered = [...items];
-
         const search = document.getElementById("search").value.toLowerCase();
-        if (search) {
+        if (search)
           filtered = filtered.filter((i) =>
             i.FigureName.toLowerCase().includes(search),
           );
-        }
-
         const category = document.getElementById("categoryFilter").value;
-        if (category) {
+        if (category)
           filtered = filtered.filter((i) => i.Category === category);
-        }
 
         const sort = document.getElementById("sort").value;
-        if (sort === "name") {
+        if (sort === "name")
           filtered.sort((a, b) => a.FigureName.localeCompare(b.FigureName));
-        }
-        if (sort === "year") {
+        if (sort === "year")
           filtered.sort((a, b) => (a.Year || 0) - (b.Year || 0));
-        }
-        if (sort === "rarity") {
+        if (sort === "rarity")
           filtered.sort((a, b) =>
             (a.Rarity || "").localeCompare(b.Rarity || ""),
           );
-        }
 
         render(filtered);
       }
 
       function render(filtered) {
         grid.innerHTML = "";
-
         filtered.forEach((item) => {
           const card = document.createElement("div");
           card.className = "card";
           card.tabIndex = 0;
-
           const rarity = getRarityClass(item.Rarity);
           if (rarity.border) card.classList.add(rarity.border);
           if (owned[item.FigureID]) card.classList.add("owned");
-
           const size = document.getElementById("sizeSelect").value;
           const imgSize =
             size === "small" ? "70px" : size === "large" ? "130px" : "100px";
-
           const isBrick = currentType === "bricks";
-
           const bricklink = item.FigureID
             ? isBrick
               ? `https://www.bricklink.com/v2/catalog/catalogitem.page?P=${item.FigureID}`
               : `https://www.bricklink.com/v2/catalog/catalogitem.page?M=${item.FigureID}`
             : null;
-
           const bricksetLink = isBrick
             ? item.BricksetID
               ? `https://brickset.com/parts/${item.BricksetID}`
@@ -446,43 +497,36 @@
               : null;
 
           card.innerHTML = `
-      <div class="front">
-        <img src="images/${currentType}/${item.FigureID?.toLowerCase()}.png"
-             onerror="this.src='images/placeholder.png'"
-             style="width:${imgSize}"
-             class="minifig-img">
-        <div class="figure-name">${item.FigureName}</div>
-      </div>
-
-      <div class="back">
-        <div class="figure-name">${item.FigureName}</div>
-        <div>${item.Series || ""}</div>
-        <div>${item.Category || ""}</div>
-        <div>${item.Year || ""}</div>
-        <div>${item.Sets || ""} Sets</div>
-        <div>${item.Rarity || ""}</div>
-        <div class="links">
-          ${bricklink ? `<a href="${bricklink}" target="_blank">BrickLink</a>` : `<span class="disabled">No BrickLink</span>`}
-          ${bricksetLink ? `<a href="${bricksetLink}" target="_blank">BrickSet</a>` : `<span class="disabled">No BrickSet</span>`}
-        </div>
-      </div>
-
-      ${item.Rarity ? `<div class="rarity-badge ${rarity.badge}">${item.Rarity}</div>` : ""}
-    `;
-
-          card.querySelectorAll("a").forEach((a) => {
-            a.addEventListener("click", (e) => e.stopPropagation());
-          });
-
+            <div class="front">
+              <img src="images/${currentType}/${item.FigureID?.toLowerCase()}.png" onerror="this.src='images/placeholder.png'" style="width:${imgSize}" class="minifig-img">
+              <div class="figure-name">${item.FigureName}</div>
+            </div>
+            <div class="back">
+              <div class="figure-name">${item.FigureName}</div>
+              <div>${item.Series || ""}</div>
+              <div>${item.Category || ""}</div>
+              <div>${item.Year || ""}</div>
+              <div>${item.Sets || ""} Sets</div>
+              <div>${item.Rarity || ""}</div>
+              <div class="links">
+                ${bricklink ? `<a href="${bricklink}" target="_blank">BrickLink</a>` : `<span class="disabled">No BrickLink</span>`}
+                ${bricksetLink ? `<a href="${bricksetLink}" target="_blank">BrickSet</a>` : `<span class="disabled">No BrickSet</span>`}
+              </div>
+            </div>
+            ${item.Rarity ? `<div class="rarity-badge ${rarity.badge}">${item.Rarity}</div>` : ""}
+          `;
+          card
+            .querySelectorAll("a")
+            .forEach((a) =>
+              a.addEventListener("click", (e) => e.stopPropagation()),
+            );
           card.onclick = () => {
             owned[item.FigureID] = !owned[item.FigureID];
             save();
             filterAndRender();
           };
-
           grid.appendChild(card);
         });
-
         updateCount(filtered);
       }
 
@@ -492,7 +536,6 @@
           .then((r) => r.json())
           .then((data) => {
             items = data;
-
             const categoryFilter = document.getElementById("categoryFilter");
             categoryFilter.innerHTML =
               '<option value="">All Categories</option>';
@@ -502,9 +545,7 @@
                 (c) =>
                   (categoryFilter.innerHTML += `<option value="${c}">${c}</option>`),
               );
-
             filterAndRender();
-
             document
               .querySelectorAll(".toggle button")
               .forEach((b) => b.classList.remove("active-btn"));
@@ -513,8 +554,13 @@
       }
 
       function toggleSettings() {
-        const p = document.getElementById("settingsPanel");
-        p.style.display = p.style.display === "block" ? "none" : "block";
+        document.getElementById("settingsPanel").classList.toggle("show");
+        document.getElementById("modalOverlay").classList.toggle("show");
+      }
+
+      function closeSettings() {
+        document.getElementById("settingsPanel").classList.remove("show");
+        document.getElementById("modalOverlay").classList.remove("show");
       }
 
       function toggleDarkMode() {
@@ -526,6 +572,7 @@
         save();
         filterAndRender();
       }
+
       function resetAll() {
         owned = {};
         save();
