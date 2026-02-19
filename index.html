@@ -168,6 +168,24 @@
         margin-top: 20px;
       }
 
+      /* ================= RARITY GLOW VARIABLES ================= */
+
+      :root {
+        --glow-common: 0 0 8px #cccccc70;
+        --glow-uncommon: 0 0 8px #4caf5070;
+        --glow-rare: 0 0 10px #2196f380;
+        --glow-epic: 0 0 12px #b000b080;
+        --glow-legendary: 0 0 8px #ff9800aa;
+      }
+
+      body.dark {
+        --glow-common: 0 0 8px #cccccc70;
+        --glow-uncommon: 0 0 14px #4caf50cc;
+        --glow-rare: 0 0 18px #2196f3ff;
+        --glow-epic: 0 0 20px #b000b0ff;
+        --glow-legendary: 0 0 22px #ff9800ff;
+      }
+
       /* ================= CARD ================= */
 
       .card {
@@ -200,37 +218,52 @@
 
       .card.owned {
         background: #c8f7c5 !important;
-        box-shadow:
-          0 0 10px #4caf50aa,
-          0 0 20px #4caf5066;
       }
 
       body.dark .card.owned {
         background: #2e5f2e !important;
-        box-shadow:
-          0 0 12px #6cff6ccc,
-          0 0 25px #4caf50aa;
       }
 
       /* ================= RARITY GLOW ================= */
 
       .rarity-common {
         border-color: #cccccc;
+        box-shadow: var(--glow-common);
       }
 
       .rarity-uncommon {
         border-color: #4caf50;
-        box-shadow: 0 0 8px #4caf5070;
+        box-shadow: var(--glow-uncommon);
       }
 
       .rarity-rare {
         border-color: #2196f3;
-        box-shadow: 0 0 10px #2196f380;
+        box-shadow: var(--glow-rare);
       }
 
       .rarity-epic {
         border-color: #70085a;
-        box-shadow: 0 0 12px #b000b080;
+        box-shadow: var(--glow-epic);
+      }
+
+      body.dark .rarity-common {
+        border-color: #cccccc;
+        box-shadow: var(--glow-common);
+      }
+
+      body.dark .rarity-uncommon {
+        border-color: #4caf50;
+        box-shadow: var(--glow-uncommon);
+      }
+
+      body.dark .rarity-rare {
+        border-color: #2196f3;
+        box-shadow: var(--glow-rare);
+      }
+
+      body.dark .rarity-epic {
+        border-color: #70085a;
+        box-shadow: var(--glow-epic);
       }
 
       .rarity-legendary {
@@ -568,9 +601,19 @@
       }
 
       function markAllOwned() {
-        items.forEach((i) => (owned[i.FigureID] = true));
-        save();
-        filterAndRender();
+        Promise.all([
+          fetch("data/figures.json").then((r) => r.json()),
+          fetch("data/bricks.json").then((r) => r.json()),
+        ]).then(([figures, bricks]) => {
+          [...figures, ...bricks].forEach((item) => {
+            if (item.FigureID) {
+              owned[item.FigureID] = true;
+            }
+          });
+
+          save();
+          filterAndRender();
+        });
       }
 
       function resetAll() {
