@@ -20,7 +20,7 @@
     "Rarity": "Common"
   },
   {
-    "FigureID": "3069pb1178  ",
+    "FigureID": "3069pb1178",
     "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Zane Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
@@ -30,7 +30,7 @@
     "Rarity": "Common"
   },
   {
-    "FigureID": "3069pb1211  ",
+    "FigureID": "3069pb1211",
     "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Zane Skybound Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
@@ -40,12 +40,32 @@
     "Rarity": "Common"
   },
   {
-    "FigureID": "3068pb2614  ",
+    "FigureID": "3068pb2614",
     "FigureName": "Tile 2 x 2 with Framed Picture of Zane Minifigure and Light Bluish Gray Falcon on Dark Blue and Black Background Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Bricks",
-    "Year": "2023",
+    "Year": "2025",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "3068pb1026",
+    "FigureName": "Tile 2 x 2 with Minifigure Blueprint and 'ZANE' Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Bricks",
+    "Year": "2025",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "4066pb855",
+    "FigureName": "Tile 2 x 2 with Minifigure Blueprint and 'ZANE' Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Bricks",
+    "Year": "2025",
     "Sets": 1,
     "Rarity": "Common"
   }
