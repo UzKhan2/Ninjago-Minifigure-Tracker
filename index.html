@@ -186,6 +186,72 @@
         --glow-legendary: 0 0 22px #ff9800ff;
       }
 
+      /* ================= RARITY SHINE ================= */
+
+      .card::before {
+        content: "";
+        position: absolute;
+        inset: -50%;
+        pointer-events: none;
+        opacity: 0;
+        transform: rotate(25deg) translateX(-100%);
+      }
+
+      /* Rare Shine (Blue Sweep) */
+      .rarity-rare::before {
+        background: linear-gradient(
+          120deg,
+          transparent,
+          rgba(33, 150, 243, 0.4),
+          transparent
+        );
+      }
+
+      .rarity-rare:hover::before {
+        animation: shineMove 1.2s linear infinite;
+        opacity: 1;
+      }
+
+      /* Epic Shine (Purple Sweep) */
+      .rarity-epic::before {
+        background: linear-gradient(
+          120deg,
+          transparent,
+          rgba(176, 0, 176, 0.5),
+          transparent
+        );
+      }
+
+      .rarity-epic:hover::before {
+        animation: shineMove 1s linear infinite;
+        opacity: 1;
+      }
+
+      /* Legendary Shine (Golden Glow + Sweep) */
+      .rarity-legendary::before {
+        background: linear-gradient(
+          120deg,
+          rgba(255, 152, 0, 0.2),
+          rgba(255, 200, 0, 0.6),
+          rgba(255, 152, 0, 0.2)
+        );
+      }
+
+      .rarity-legendary:hover::before {
+        animation: shineMove 0.8s linear infinite;
+        opacity: 1;
+      }
+
+      /* Shine animation */
+      @keyframes shineMove {
+        0% {
+          transform: rotate(25deg) translateX(-100%);
+        }
+        100% {
+          transform: rotate(25deg) translateX(100%);
+        }
+      }
+
       /* ================= CARD ================= */
 
       .card {
@@ -333,11 +399,42 @@
         gap: 4px;
       }
 
-      .card:hover .front {
-        display: none;
+      .card {
+        perspective: 1000px;
       }
-      .card:hover .back {
+
+      /* Inner wrapper */
+      .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+      }
+
+      /* Flip on hover */
+      .card:hover .card-inner {
+        transform: rotateY(180deg);
+      }
+
+      /* Front + Back shared */
+      .front,
+      .back {
+        position: absolute;
+        inset: 0;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        backface-visibility: hidden;
+        border-radius: 12px;
+      }
+
+      /* Back side rotated */
+      .back {
+        transform: rotateY(180deg);
       }
 
       .minifig-img {
@@ -382,7 +479,7 @@
     </style>
   </head>
 
-  <body>
+  <body class="dark">
     <h1>Zane Collection Tracker</h1>
 
     <div class="toggle">
@@ -530,20 +627,27 @@
               : null;
 
           card.innerHTML = `
-            <div class="front">
-              <img src="images/${currentType}/${item.FigureID?.toLowerCase()}.png" onerror="this.src='images/placeholder.png'" style="width:${imgSize}" class="minifig-img">
-              <div class="figure-name">${item.FigureName}</div>
-            </div>
-            <div class="back">
-              <div class="figure-name">${item.FigureName}</div>
-              <div>${item.Series || ""}</div>
-              <div>${item.Category || ""}</div>
-              <div>${item.Year || ""}</div>
-              <div>${item.Sets || ""} Sets</div>
-              <div>${item.Rarity || ""}</div>
-              <div class="links">
-                ${bricklink ? `<a href="${bricklink}" target="_blank">BrickLink</a>` : `<span class="disabled">No BrickLink</span>`}
-                ${bricksetLink ? `<a href="${bricksetLink}" target="_blank">BrickSet</a>` : `<span class="disabled">No BrickSet</span>`}
+            <div class="card-inner">
+              <div class="holo-shine"></div>
+              <div class="front">
+                <img src="images/${currentType}/${item.FigureID?.toLowerCase()}.png"
+                    onerror="this.src='images/placeholder.png'"
+                    style="width:${imgSize}"
+                    class="minifig-img">
+                <div class="figure-name">${item.FigureName}</div>
+              </div>
+
+              <div class="back">
+                <div class="figure-name">${item.FigureName}</div>
+                <div>${item.Series || ""}</div>
+                <div>${item.Category || ""}</div>
+                <div>${item.Year || ""}</div>
+                <div>${item.Sets || ""} Sets</div>
+                <div>${item.Rarity || ""}</div>
+                <div class="links">
+                  ${bricklink ? `<a href="${bricklink}" target="_blank">BrickLink</a>` : `<span class="disabled">No BrickLink</span>`}
+                  ${bricksetLink ? `<a href="${bricksetLink}" target="_blank">BrickSet</a>` : `<span class="disabled">No BrickSet</span>`}
+                </div>
               </div>
             </div>
             ${item.Rarity ? `<div class="rarity-badge ${rarity.badge}">${item.Rarity}</div>` : ""}
