@@ -604,6 +604,46 @@
         grid.innerHTML = "";
         filtered.forEach((item) => {
           const card = document.createElement("div");
+
+          /* ================= MOBILE SWIPE TO FLIP ================= */
+
+          let touchStartX = 0;
+          let touchStartY = 0;
+          let moved = false;
+
+          card.addEventListener("touchstart", (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+            moved = false;
+          });
+
+          card.addEventListener("touchmove", () => {
+            moved = true; // User is swiping, not tapping
+          });
+
+          card.addEventListener("touchend", (e) => {
+            const touchEndX = e.changedTouches[0].screenX;
+            const touchEndY = e.changedTouches[0].screenY;
+
+            const dx = touchEndX - touchStartX;
+            const dy = touchEndY - touchStartY;
+
+            const isHorizontalSwipe =
+              Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy);
+
+            if (isHorizontalSwipe) {
+              card.classList.toggle("flipped");
+              return;
+            }
+
+            // If it wasn't a swipe → treat as tap
+            if (!moved) {
+              owned[item.FigureID] = !owned[item.FigureID];
+              save();
+              filterAndRender();
+            }
+          });
+
           card.className = "card";
           card.tabIndex = 0;
           const rarity = getRarityClass(item.Rarity);
@@ -657,18 +697,7 @@
             .forEach((a) =>
               a.addEventListener("click", (e) => e.stopPropagation()),
             );
-          let moved = false;
-
-          card.addEventListener("touchmove", () => {
-            moved = true;
-          });
-
-          card.addEventListener("touchend", () => {
-            setTimeout(() => (moved = false), 50);
-          });
-
           card.onclick = () => {
-            if (moved) return; // Don't toggle if it was a swipe
             owned[item.FigureID] = !owned[item.FigureID];
             save();
             filterAndRender();
@@ -771,55 +800,6 @@
           cards[idx].focus();
         if (e.key === "Enter" || e.key === " ") cards[idx].click();
       });
-
-      /* ================= MOBILE SWIPE SUPPORT ================= */
-
-      let touchStartX = 0;
-      let touchStartY = 0;
-      let touchEndX = 0;
-      let touchEndY = 0;
-      const swipeThreshold = 50; // minimum distance for swipe
-
-      grid.addEventListener("touchstart", (e) => {
-        const touch = e.changedTouches[0];
-        touchStartX = touch.screenX;
-        touchStartY = touch.screenY;
-      });
-
-      grid.addEventListener("touchend", (e) => {
-        const touch = e.changedTouches[0];
-        touchEndX = touch.screenX;
-        touchEndY = touch.screenY;
-
-        handleSwipe();
-      });
-
-      function handleSwipe() {
-        const dx = touchEndX - touchStartX;
-        const dy = touchEndY - touchStartY;
-
-        // Ignore vertical scroll swipes
-        if (Math.abs(dx) < Math.abs(dy)) return;
-
-        if (Math.abs(dx) > swipeThreshold) {
-          const cards = [...grid.querySelectorAll(".card")];
-          if (!cards.length) return;
-
-          let idx = cards.indexOf(document.activeElement);
-          if (idx === -1) idx = 0;
-
-          if (dx < 0) {
-            // Swipe Left → Next card
-            idx = (idx + 1) % cards.length;
-          } else {
-            // Swipe Right → Previous card
-            idx = (idx - 1 + cards.length) % cards.length;
-          }
-
-          cards[idx].focus();
-          cards[idx].scrollIntoView({ behavior: "smooth", block: "center" });
-        }
-      }
 
       loadData("figures", document.getElementById("btnFigures"));
     </script>
