@@ -5,7 +5,7 @@
     "Series": "Games",
     "Category": "The Golden Weapons",
     "Year": "2011",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -15,9 +15,9 @@
     "Series": "Ninjago",
     "Category": "The Golden Weapons",
     "Year": "2011",
-    "Rarity": "null",
+    "Rarity": "Rare",
     "Sets": "5",
-    "SpecialEdition": "Yes"
+    "SpecialEdition": "No"
   },
   {
     "FigureID": "NJO0018",
@@ -25,9 +25,9 @@
     "Series": "Ninjago",
     "Category": "The Golden Weapons",
     "Year": "2011",
-    "Rarity": "Common",
+    "Rarity": "Epic",
     "Sets": "2",
-    "SpecialEdition": "Yes"
+    "SpecialEdition": "No"
   },
   {
     "FigureID": "NJO0031",
@@ -35,7 +35,7 @@
     "Series": "Ninjago",
     "Category": "Rise of the Snakes",
     "Year": "2012",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "5",
     "SpecialEdition": "No"
   },
@@ -45,9 +45,9 @@
     "Series": "Ninjago",
     "Category": "Rise of the Snakes",
     "Year": "2012",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "2",
-    "SpecialEdition": "Yes"
+    "SpecialEdition": "No"
   },
   {
     "FigureID": "NJO0053",
@@ -55,9 +55,9 @@
     "Series": "Ninjago",
     "Category": "Rise of the Snakes",
     "Year": "2012",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0069",
@@ -67,7 +67,7 @@
     "Year": "2012",
     "Rarity": "Legendary",
     "Sets": "1",
-    "SpecialEdition": "Yes"
+    "SpecialEdition": "No"
   },
   {
     "FigureID": "NJO0076",
@@ -75,7 +75,7 @@
     "Series": "Ninjago",
     "Category": "The Final Battle",
     "Year": "2013",
-    "Rarity": "null",
+    "Rarity": "Legendary",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -85,7 +85,7 @@
     "Series": "Ninjago",
     "Category": "Rebooted",
     "Year": "2014",
-    "Rarity": "null",
+    "Rarity": "Rare",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -95,7 +95,7 @@
     "Series": "Ninjago",
     "Category": "Rebooted",
     "Year": "2014",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -105,7 +105,7 @@
     "Series": "Ninjago",
     "Category": "Rebooted",
     "Year": "2014",
-    "Rarity": "null",
+    "Rarity": "Rare",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -115,7 +115,7 @@
     "Series": "Ninjago",
     "Category": "Tournament of Elements",
     "Year": "2015",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -125,7 +125,7 @@
     "Series": "Ninjago",
     "Category": "Possession",
     "Year": "2015",
-    "Rarity": "null",
+    "Rarity": "Epic",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -135,7 +135,7 @@
     "Series": "Ninjago",
     "Category": "Possession",
     "Year": "2015",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -145,9 +145,9 @@
     "Series": "Ninjago",
     "Category": "Possession",
     "Year": "2015",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0185",
@@ -155,9 +155,9 @@
     "Series": "Ninjago",
     "Category": "Rebooted",
     "Year": "2015",
-    "Rarity": "null",
+    "Rarity": "Rare",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0189",
@@ -165,7 +165,7 @@
     "Series": "Ninjago",
     "Category": "Skybound",
     "Year": "2016",
-    "Rarity": "null",
+    "Rarity": "Rare",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -175,7 +175,7 @@
     "Series": "Ninjago",
     "Category": "Other",
     "Year": "2016",
-    "Rarity": "null",
+    "Rarity": "Epic",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -185,7 +185,7 @@
     "Series": "Ninjago",
     "Category": "Skybound",
     "Year": "2016",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -195,7 +195,7 @@
     "Series": "Ninjago",
     "Category": "Skybound",
     "Year": "2016",
-    "Rarity": "Legendary",
+    "Rarity": "Rare",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -205,9 +205,9 @@
     "Series": "Ninjago",
     "Category": "Tournament of Elements",
     "Year": "2016",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0260",
@@ -215,7 +215,7 @@
     "Series": "Ninjago",
     "Category": "Day of the Departed",
     "Year": "2016",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -225,9 +225,9 @@
     "Series": "Ninjago",
     "Category": "Day of the Departed",
     "Year": "2016",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "COLTLNM10",
@@ -235,7 +235,7 @@
     "Series": "Collectable Minifigures",
     "Category": "The LEGO Ninjago Movie",
     "Year": "2017",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -245,7 +245,7 @@
     "Series": "Ninjago",
     "Category": "The Hands of Time",
     "Year": "2017",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -255,7 +255,7 @@
     "Series": "Ninjago",
     "Category": "Day of the Departed",
     "Year": "2017",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -265,9 +265,9 @@
     "Series": "Ninjago",
     "Category": "Day of the Departed",
     "Year": "2017",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0318",
@@ -275,7 +275,7 @@
     "Series": "The LEGO Ninjago Movie",
     "Category": "General",
     "Year": "2017",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "5",
     "SpecialEdition": "No"
   },
@@ -285,9 +285,9 @@
     "Series": "The LEGO Ninjago Movie",
     "Category": "General",
     "Year": "2017",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0393",
@@ -295,7 +295,7 @@
     "Series": "Ninjago",
     "Category": "Sons of Garmadon",
     "Year": "2018",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -305,7 +305,7 @@
     "Series": "Ninjago",
     "Category": "Sons of Garmadon",
     "Year": "2018",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -315,7 +315,7 @@
     "Series": "Ninjago",
     "Category": "Sons of Garmadon / Spinjitzu Masters",
     "Year": "2018",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -325,9 +325,9 @@
     "Series": "Ninjago",
     "Category": "Sons of Garmadon",
     "Year": "2018",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0423",
@@ -335,7 +335,7 @@
     "Series": "Ninjago",
     "Category": "Other",
     "Year": "2018",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -345,7 +345,7 @@
     "Series": "Ninjago",
     "Category": "Hunted / Dragon Masters",
     "Year": "2018",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -355,7 +355,7 @@
     "Series": "Ninjago",
     "Category": "Hunted",
     "Year": "2018",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "3",
     "SpecialEdition": "No"
   },
@@ -364,10 +364,10 @@
     "FigureName": "Zane - Sons of Garmadon, Clip and Harpoon on Back",
     "Series": "Ninjago",
     "Category": "Sons of Garmadon",
-    "Year": "null",
-    "Rarity": "null",
-    "Sets": "null",
-    "SpecialEdition": "No"
+    "Year": "2018",
+    "Rarity": "Common",
+    "Sets": "2",
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0494",
@@ -375,7 +375,7 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2019",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "4",
     "SpecialEdition": "No"
   },
@@ -385,7 +385,7 @@
     "Series": "Ninjago",
     "Category": "Secrets of the Forbidden Spinjitzu",
     "Year": "2019",
-    "Rarity": "Epic",
+    "Rarity": "Uncommon",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -395,7 +395,7 @@
     "Series": "Ninjago",
     "Category": "Secrets of the Forbidden Spinjitzu",
     "Year": "2019",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -405,7 +405,7 @@
     "Series": "Ninjago",
     "Category": "Secrets of the Forbidden Spinjitzu",
     "Year": "2019",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -415,7 +415,7 @@
     "Series": "Ninjago",
     "Category": "Secrets of the Forbidden Spinjitzu",
     "Year": "2019",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -425,9 +425,9 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2019",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0561",
@@ -435,7 +435,7 @@
     "Series": "Ninjago",
     "Category": "Prime Empire",
     "Year": "2020",
-    "Rarity": "Legendary",
+    "Rarity": "Epic",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -445,7 +445,7 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2020",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -455,9 +455,9 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2020",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0622",
@@ -465,7 +465,7 @@
     "Series": "Ninjago",
     "Category": "Master of the Mountain",
     "Year": "2020",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -475,9 +475,9 @@
     "Series": "Ninjago",
     "Category": "Secrets of the Forbidden Spinjitzu",
     "Year": "2020",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0626",
@@ -485,9 +485,9 @@
     "Series": "Ninjago",
     "Category": "Master of the Mountain",
     "Year": "2020",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0635",
@@ -495,7 +495,7 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2021",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -505,7 +505,7 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2021",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -515,8 +515,18 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2021",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "3",
+    "SpecialEdition": "Yes"
+  },
+  {
+    "FigureID": "NJO0675",
+    "FigureName": "Statue - NINJAGO City Gardens",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "Common",
+    "Sets": "1",
     "SpecialEdition": "No"
   },
   {
@@ -525,7 +535,7 @@
     "Series": "Ninjago",
     "Category": "The Island",
     "Year": "2021",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -535,9 +545,9 @@
     "Series": "Ninjago",
     "Category": "Master of the Mountain",
     "Year": "2021",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0699",
@@ -545,7 +555,7 @@
     "Series": "Ninjago",
     "Category": "Seabound",
     "Year": "2021",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "3",
     "SpecialEdition": "No"
   },
@@ -565,9 +575,9 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2021",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0719",
@@ -575,9 +585,9 @@
     "Series": "Ninjago",
     "Category": "Core",
     "Year": "2022",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "3",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0728",
@@ -585,9 +595,9 @@
     "Series": "Ninjago",
     "Category": "Core",
     "Year": "2022",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0749",
@@ -595,7 +605,7 @@
     "Series": "Ninjago",
     "Category": "Core",
     "Year": "2022",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "3",
     "SpecialEdition": "No"
   },
@@ -605,7 +615,7 @@
     "Series": "Ninjago",
     "Category": "Crystalized",
     "Year": "2022",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -615,7 +625,7 @@
     "Series": "Ninjago",
     "Category": "Crystalized",
     "Year": "2022",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -625,7 +635,7 @@
     "Series": "Ninjago",
     "Category": "Crystalized",
     "Year": "2022",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -635,9 +645,9 @@
     "Series": "Ninjago",
     "Category": "Crystalized",
     "Year": "2022",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0819",
@@ -645,7 +655,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 1",
     "Year": "2023",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "3",
     "SpecialEdition": "No"
   },
@@ -655,7 +665,7 @@
     "Series": "Ninjago",
     "Category": "Prime Empire",
     "Year": "2023",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -665,7 +675,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 2",
     "Year": "2024",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -675,7 +685,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 2",
     "Year": "2024",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -685,7 +695,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 2",
     "Year": "2024",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -695,9 +705,9 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 2",
     "Year": "2024",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0922",
@@ -705,9 +715,9 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 3",
     "Year": "2025",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0934",
@@ -715,7 +725,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 3",
     "Year": "2025",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -725,7 +735,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 3",
     "Year": "2025",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -735,9 +745,9 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 2",
     "Year": "2025",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0953",
@@ -745,7 +755,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 3",
     "Year": "2025",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -755,9 +765,9 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 3",
     "Year": "2025",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "1",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO0971",
@@ -765,7 +775,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 3",
     "Year": "2025",
-    "Rarity": "null",
+    "Rarity": "Rare",
     "Sets": "1",
     "SpecialEdition": "No"
   },
@@ -774,10 +784,10 @@
     "FigureName": "Zane - Dragons Rising, Tunic with Shoulder Armor, Hair, Angry",
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 3",
-    "Year": "null",
-    "Rarity": "null",
-    "Sets": "null",
-    "SpecialEdition": "No"
+    "Year": "2025",
+    "Rarity": "Common",
+    "Sets": "1",
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO1003",
@@ -785,7 +795,7 @@
     "Series": "Ninjago",
     "Category": "Legacy",
     "Year": "2026",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "2",
     "SpecialEdition": "No"
   },
@@ -795,9 +805,9 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 4",
     "Year": "2026",
-    "Rarity": "null",
+    "Rarity": "Common",
     "Sets": "2",
-    "SpecialEdition": "No"
+    "SpecialEdition": "Yes"
   },
   {
     "FigureID": "NJO1039",
@@ -805,7 +815,7 @@
     "Series": "Ninjago",
     "Category": "Dragons Rising Season 4",
     "Year": "2026",
-    "Rarity": "null",
+    "Rarity": "Uncommon",
     "Sets": "1",
     "SpecialEdition": "No"
   }

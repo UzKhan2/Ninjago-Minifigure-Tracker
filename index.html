@@ -223,7 +223,7 @@
       }
 
       .rarity-epic:hover::before {
-        animation: shineMove 1s linear infinite;
+        animation: shineMove 1.2s linear infinite;
         opacity: 1;
       }
 
@@ -238,7 +238,7 @@
       }
 
       .rarity-legendary:hover::before {
-        animation: shineMove 0.8s linear infinite;
+        animation: shineMove 1.2s linear infinite;
         opacity: 1;
       }
 
@@ -640,7 +640,8 @@
             if (!moved) {
               owned[item.FigureID] = !owned[item.FigureID];
               save();
-              filterAndRender();
+              card.classList.toggle("owned");
+              updateCount(items);
             }
           });
 
@@ -700,7 +701,8 @@
           card.onclick = () => {
             owned[item.FigureID] = !owned[item.FigureID];
             save();
-            filterAndRender();
+            card.classList.toggle("owned");
+            updateCount(items);
           };
           grid.appendChild(card);
         });
