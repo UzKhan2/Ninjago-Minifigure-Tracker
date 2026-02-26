@@ -6,6 +6,7 @@ Tracker for my Collection of Zane Minifigures
 
 - [ ] Add max image size
 - [ ] Decrease swipe sensitivity
+- [ ] Fix mobile own taping
 - [ ] Add toggle for tags
 - [ ] Organize and comment code
 - [ ] Sort by owned

@@ -527,6 +527,9 @@
       <button class="close-btn" onclick="closeSettings()">×</button>
       <h3>Settings</h3>
       <button onclick="toggleDarkMode()">Dark / Light Mode</button><br />
+      <button onclick="toggleRarity()" id="rarityToggleBtn">
+        Rarity Tags: ON</button
+      ><br />
       <button onclick="markAllOwned()">Mark All Owned</button><br />
       <button onclick="resetAll()">Reset All</button><br />
       <button onclick="exportCollection()">Export JSON</button><br />
@@ -546,6 +549,8 @@
       let items = [];
       let currentType = "figures";
       let owned = JSON.parse(localStorage.getItem("ownedItems") || "{}");
+
+      let showRarity = JSON.parse(localStorage.getItem("showRarity") || "true");
 
       const grid = document.getElementById("grid");
       const countEl = document.getElementById("count");
@@ -576,6 +581,20 @@
         progressBar.style.width = total ? (have / total) * 100 + "%" : "0%";
       }
 
+      function toggleRarity() {
+        showRarity = !showRarity;
+        localStorage.setItem("showRarity", JSON.stringify(showRarity));
+
+        updateRarityButton();
+        card.classList.toggle("owned");
+        updateCount(items);
+      }
+
+      function updateRarityButton() {
+        const btn = document.getElementById("rarityToggleBtn");
+        btn.textContent = showRarity ? "Rarity Tags: ON" : "Rarity Tags: OFF";
+      }
+
       function filterAndRender() {
         let filtered = [...items];
         const search = document.getElementById("search").value.toLowerCase();
@@ -592,10 +611,21 @@
           filtered.sort((a, b) => a.FigureName.localeCompare(b.FigureName));
         if (sort === "year")
           filtered.sort((a, b) => (a.Year || 0) - (b.Year || 0));
-        if (sort === "rarity")
-          filtered.sort((a, b) =>
-            (a.Rarity || "").localeCompare(b.Rarity || ""),
-          );
+        if (sort === "rarity") {
+          const rarityOrder = {
+            common: 1,
+            uncommon: 2,
+            rare: 3,
+            epic: 4,
+            legendary: 5,
+          };
+
+          filtered.sort((a, b) => {
+            const rA = rarityOrder[(a.Rarity || "").toLowerCase()] || 0;
+            const rB = rarityOrder[(b.Rarity || "").toLowerCase()] || 0;
+            return rA - rB;
+          });
+        }
 
         render(filtered);
       }
@@ -691,7 +721,11 @@
                 </div>
               </div>
             </div>
-            ${item.Rarity ? `<div class="rarity-badge ${rarity.badge}">${item.Rarity}</div>` : ""}
+            ${
+              item.Rarity && showRarity
+                ? `<div class="rarity-badge ${rarity.badge}">${item.Rarity}</div>`
+                : ""
+            }
           `;
           card
             .querySelectorAll("a")
@@ -802,7 +836,7 @@
           cards[idx].focus();
         if (e.key === "Enter" || e.key === " ") cards[idx].click();
       });
-
+      updateRarityButton();
       loadData("figures", document.getElementById("btnFigures"));
     </script>
   </body>
