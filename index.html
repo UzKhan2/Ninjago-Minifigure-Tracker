@@ -438,7 +438,23 @@
       }
 
       .minifig-img {
-        width: 100px;
+        width: 100%;
+        object-fit: contain;
+      }
+
+      /* Small */
+      .card.small .minifig-img {
+        max-height: 70px;
+      }
+
+      /* Medium */
+      .card.medium .minifig-img {
+        max-height: 100px;
+      }
+
+      /* Large */
+      .card.large .minifig-img {
+        max-height: 130px;
       }
 
       .figure-name {
@@ -681,6 +697,7 @@
           if (rarity.border) card.classList.add(rarity.border);
           if (owned[item.FigureID]) card.classList.add("owned");
           const size = document.getElementById("sizeSelect").value;
+          card.classList.add(size);
           const imgSize =
             size === "small" ? "70px" : size === "large" ? "130px" : "100px";
           const isBrick = currentType === "bricks";
@@ -702,8 +719,7 @@
               <div class="holo-shine"></div>
               <div class="front">
                 <img src="images/${currentType}/${item.FigureID?.toLowerCase()}.png"
-                    onerror="this.src='images/placeholder.png'"
-                    style="width:${imgSize}"
+                    onerror="this.src='images/placeholder.png'"                   
                     class="minifig-img">
                 <div class="figure-name">${item.FigureName}</div>
               </div>
