@@ -417,6 +417,10 @@
         transform: rotateY(180deg);
       }
 
+      .card.flipped .card-inner {
+        transform: rotateY(180deg);
+      }
+
       /* Front + Back shared */
       .front,
       .back {
@@ -444,17 +448,17 @@
 
       /* Small */
       .card.small .minifig-img {
-        max-height: 70px;
+        max-height: 100px;
       }
 
       /* Medium */
       .card.medium .minifig-img {
-        max-height: 100px;
+        max-height: 145px;
       }
 
       /* Large */
       .card.large .minifig-img {
-        max-height: 130px;
+        max-height: 200px;
       }
 
       .figure-name {
@@ -602,8 +606,7 @@
         localStorage.setItem("showRarity", JSON.stringify(showRarity));
 
         updateRarityButton();
-        card.classList.toggle("owned");
-        updateCount(items);
+        filterAndRender();
       }
 
       function updateRarityButton() {
@@ -655,35 +658,32 @@
 
           let touchStartX = 0;
           let touchStartY = 0;
-          let moved = false;
+          let touchStartTime = 0;
 
           card.addEventListener("touchstart", (e) => {
-            touchStartX = e.changedTouches[0].screenX;
-            touchStartY = e.changedTouches[0].screenY;
-            moved = false;
-          });
-
-          card.addEventListener("touchmove", () => {
-            moved = true; // User is swiping, not tapping
+            const touch = e.touches[0];
+            touchStartX = touch.clientX;
+            touchStartY = touch.clientY;
+            touchStartTime = Date.now();
           });
 
           card.addEventListener("touchend", (e) => {
-            const touchEndX = e.changedTouches[0].screenX;
-            const touchEndY = e.changedTouches[0].screenY;
+            const touch = e.changedTouches[0];
+            const dx = touch.clientX - touchStartX;
+            const dy = touch.clientY - touchStartY;
+            const dt = Date.now() - touchStartTime;
 
-            const dx = touchEndX - touchStartX;
-            const dy = touchEndY - touchStartY;
+            const horizontalSwipe =
+              Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy);
 
-            const isHorizontalSwipe =
-              Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy);
+            const isTap = Math.abs(dx) < 10 && Math.abs(dy) < 10 && dt < 300;
 
-            if (isHorizontalSwipe) {
+            if (horizontalSwipe) {
               card.classList.toggle("flipped");
               return;
             }
 
-            // If it wasn't a swipe → treat as tap
-            if (!moved) {
+            if (isTap) {
               owned[item.FigureID] = !owned[item.FigureID];
               save();
               card.classList.toggle("owned");
@@ -699,7 +699,7 @@
           const size = document.getElementById("sizeSelect").value;
           card.classList.add(size);
           const imgSize =
-            size === "small" ? "70px" : size === "large" ? "130px" : "100px";
+            size === "medium" ? "100px" : size === "large" ? "130px" : "100px";
           const isBrick = currentType === "bricks";
           const bricklink = item.FigureID
             ? isBrick
@@ -748,12 +748,7 @@
             .forEach((a) =>
               a.addEventListener("click", (e) => e.stopPropagation()),
             );
-          card.onclick = () => {
-            owned[item.FigureID] = !owned[item.FigureID];
-            save();
-            card.classList.toggle("owned");
-            updateCount(items);
-          };
+
           grid.appendChild(card);
         });
         updateCount(filtered);
