@@ -522,6 +522,7 @@
         <option value="year">Sort by Year</option>
         <option value="name">Sort by Name</option>
         <option value="rarity">Sort by Rarity</option>
+        <option value="owned">Sort by Owned</option>
       </select>
 
       <select id="categoryFilter" onchange="filterAndRender()">
@@ -645,6 +646,13 @@
             return rA - rB;
           });
         }
+        if (sort === "owned") {
+          filtered.sort((a, b) => {
+            const aOwned = owned[a.FigureID] ? 1 : 0;
+            const bOwned = owned[b.FigureID] ? 1 : 0;
+            return bOwned - aOwned; // Owned first
+          });
+        }
 
         render(filtered);
       }
@@ -659,14 +667,18 @@
           let touchStartX = 0;
           let touchStartY = 0;
           let touchStartTime = 0;
+          let isTouchDevice = false;
 
+          /* TOUCH START */
           card.addEventListener("touchstart", (e) => {
+            isTouchDevice = true;
             const touch = e.touches[0];
             touchStartX = touch.clientX;
             touchStartY = touch.clientY;
             touchStartTime = Date.now();
           });
 
+          /* TOUCH END */
           card.addEventListener("touchend", (e) => {
             const touch = e.changedTouches[0];
             const dx = touch.clientX - touchStartX;
@@ -689,6 +701,16 @@
               card.classList.toggle("owned");
               updateCount(items);
             }
+          });
+
+          /* DESKTOP CLICK */
+          card.addEventListener("click", () => {
+            if (isTouchDevice) return; // prevent double trigger on mobile
+
+            owned[item.FigureID] = !owned[item.FigureID];
+            save();
+            card.classList.toggle("owned");
+            updateCount(items);
           });
 
           card.className = "card";
