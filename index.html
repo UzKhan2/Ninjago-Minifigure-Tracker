@@ -379,6 +379,29 @@
         background: #ff9800;
       }
 
+      /* ================= Character BUTTON ================= */
+
+      .character-select {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 15px;
+      }
+
+      .character-select button {
+        padding: 8px 14px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        background: #333;
+        color: white;
+      }
+
+      .character-select button.active {
+        background: #f0b400;
+        color: black;
+      }
+
       /* ================= CARD FRONT/BACK ================= */
 
       .front,
@@ -500,7 +523,15 @@
   </head>
 
   <body class="dark">
-    <h1>Zane Collection Tracker</h1>
+    <h1>Ninjago Collection Tracker</h1>
+
+    <div id="characterSelect" class="character-select">
+      <button onclick="selectCharacter('zane')">Zane</button>
+      <button onclick="selectCharacter('lloyd')">Lloyd</button>
+      <button onclick="selectCharacter('kai')">Kai</button>
+      <button onclick="selectCharacter('cole')">Cole</button>
+      <button onclick="selectCharacter('jay')">Jay</button>
+    </div>
 
     <div class="toggle">
       <button id="btnFigures" onclick="loadData('figures', this)">
@@ -568,6 +599,7 @@
       /* FULL JS LOGIC (with modal animation) */
 
       let items = [];
+      let currentCharacter = "zane";
       let currentType = "figures";
       let owned = JSON.parse(localStorage.getItem("ownedItems") || "{}");
 
@@ -578,7 +610,30 @@
       const progressBar = document.getElementById("progressBar");
 
       function save() {
-        localStorage.setItem("ownedItems", JSON.stringify(owned));
+        localStorage.setItem(
+          `owned_${currentCharacter}`,
+          JSON.stringify(owned),
+        );
+      }
+
+      function selectCharacter(name) {
+        currentCharacter = name;
+
+        owned = JSON.parse(localStorage.getItem(`owned_${name}`)) || {};
+
+        document
+          .querySelectorAll("#characterSelect button")
+          .forEach((btn) => btn.classList.remove("active"));
+
+        document
+          .querySelector(
+            `#characterSelect button[onclick="selectCharacter('${name}')"]`,
+          )
+          .classList.add("active");
+
+        // Reload current type properly
+        const activeTypeBtn = document.querySelector(".toggle .active-btn");
+        loadData(currentType, activeTypeBtn);
       }
 
       function getRarityClass(rarity) {
@@ -778,7 +833,7 @@
 
       function loadData(type, btn) {
         currentType = type;
-        fetch(`data/${type}.json`)
+        fetch(`data/${currentCharacter}.json`)
           .then((r) => r.json())
           .then((data) => {
             items = data;
@@ -815,7 +870,7 @@
 
       function markAllOwned() {
         Promise.all([
-          fetch("data/figures.json").then((r) => r.json()),
+          fetch("${currentCharacter}.json").then((r) => r.json()),
           fetch("data/bricks.json").then((r) => r.json()),
         ]).then(([figures, bricks]) => {
           [...figures, ...bricks].forEach((item) => {

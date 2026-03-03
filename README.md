@@ -6,6 +6,5 @@ Tracker for my Collection of Zane Minifigures
 
 - [ ] Decrease swipe sensitivity
 - [ ] Organize and comment code
-- [ ] Sort by owned
 - [ ] Seperate code into files
 - [ ] Add additional characters
