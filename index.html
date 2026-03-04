@@ -833,7 +833,7 @@
 
       function loadData(type, btn) {
         currentType = type;
-        fetch(`data/${currentCharacter}.json`)
+        fetch(`data/${currentCharacter}_${type}.json`)
           .then((r) => r.json())
           .then((data) => {
             items = data;
