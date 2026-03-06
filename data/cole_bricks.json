@@ -1,7 +1,7 @@
 [
   {
-    "FigureID": "98138pb046",
-    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Zane Pattern",
+    "FigureID": "98138pb049",
+    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Cole Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Bricks",
@@ -10,12 +10,52 @@
     "Rarity": "Common"
   },
   {
-    "FigureID": "3068pb1026",
-    "FigureName": "Tile 2 x 2 with Minifigure Blueprint and 'ZANE' Pattern",
+    "FigureID": "3069pb0403",
+    "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Cole Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2015",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "3069pb0600",
+    "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Kendo Cole Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Stickers",
     "Year": "2016",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "57895pb087",
+    "FigureName": "Glass for Window 1 x 4 x 6 with Lloyd, Cole, Kai, 'NINJAGO TONIGHT NT', and Ninjago Logogram 'WHO ARE THE NINJAS' and 'WE TALK TO THE EXPERT' Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2018",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "26603pb137",
+    "FigureName": "Tile 2 x 3 with Picture of Ninjago Characters Wu, Nya, Zane, Jay, Cole and Lloyd Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2021",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "90398pb047",
+    "FigureName": "Minifigure, Utensil Statuette / Trophy with Ninjago Cole with Orange and Dark Bluish Gray Robe and White Ninjago Logogram Letter C Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Bricks",
+    "Year": "2023",
     "Sets": 1,
     "Rarity": "Common"
   }

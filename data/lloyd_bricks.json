@@ -1,21 +1,71 @@
 [
   {
-    "FigureID": "98138pb046",
-    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Zane Pattern",
+    "FigureID": "98138pb047",
+    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Lloyd Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Bricks",
     "Year": "2016",
+    "Sets": 2,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "3069pb0612",
+    "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Lloyd Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2017",
     "Sets": 1,
     "Rarity": "Common"
   },
   {
-    "FigureID": "3068pb1026",
-    "FigureName": "Tile 2 x 2 with Minifigure Blueprint and 'ZANE' Pattern",
+    "FigureID": "973pb2821c01",
+    "FigureName": "Torso Sweater with Gold Ninjago Logogram 'NEMANJA' and Green Ninja Lloyd with Katanas over White Shirt with Collar, Yellow Neck Pattern / Dark Green Arms / Yellow Hands",
+    "BricksetID": "6202313",
+    "Series": "Ninjago",
+    "Category": "Minifigure",
+    "Year": "2017",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "57895pb087",
+    "FigureName": "Glass for Window 1 x 4 x 6 with Lloyd, Cole, Kai, 'NINJAGO TONIGHT NT', and Ninjago Logogram 'WHO ARE THE NINJAS' and 'WE TALK TO THE EXPERT' Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Stickers",
-    "Year": "2016",
+    "Year": "2018",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "973pb3970c01",
+    "FigureName": "Torso Hoodie with Ninja Minifigure Head and Wrap with Ninjago Logogram Letter L, 'LLOYD' on Back Pattern / Green Arms / Yellow Hands",
+    "BricksetID": "6312492",
+    "Series": "Ninjago",
+    "Category": "Minifigure",
+    "Year": "2020",
+    "Sets": 4,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "26603pb137",
+    "FigureName": "Tile 2 x 3 with Picture of Ninjago Characters Wu, Nya, Zane, Jay, Cole and Lloyd Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2021",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "3069pb1212",
+    "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Lloyd ZX Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2023",
     "Sets": 1,
     "Rarity": "Common"
   }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zane Collection Tracker</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/app.css" />
 
     <style>
       /* ================= BASE ================= */
@@ -601,7 +602,9 @@
       let items = [];
       let currentCharacter = "zane";
       let currentType = "figures";
-      let owned = JSON.parse(localStorage.getItem("ownedItems") || "{}");
+      let owned = JSON.parse(
+        localStorage.getItem(`owned_${currentCharacter}`) || "{}",
+      );
 
       let showRarity = JSON.parse(localStorage.getItem("showRarity") || "true");
 
@@ -795,7 +798,7 @@
             <div class="card-inner">
               <div class="holo-shine"></div>
               <div class="front">
-                <img src="images/${currentType}/${item.FigureID?.toLowerCase()}.png"
+                <img src="images/${currentType}/${currentCharacter}/${item.FigureID?.toLowerCase()}.png"
                     onerror="this.src='images/placeholder.png'"                   
                     class="minifig-img">
                 <div class="figure-name">${item.FigureName}</div>
@@ -869,19 +872,18 @@
       }
 
       function markAllOwned() {
-        Promise.all([
-          fetch("${currentCharacter}.json").then((r) => r.json()),
-          fetch("data/bricks.json").then((r) => r.json()),
-        ]).then(([figures, bricks]) => {
-          [...figures, ...bricks].forEach((item) => {
-            if (item.FigureID) {
-              owned[item.FigureID] = true;
-            }
-          });
+        fetch(`data/${currentCharacter}_${currentType}.json`)
+          .then((r) => r.json())
+          .then((data) => {
+            data.forEach((item) => {
+              if (item.FigureID) {
+                owned[item.FigureID] = true;
+              }
+            });
 
-          save();
-          filterAndRender();
-        });
+            save();
+            filterAndRender();
+          });
       }
 
       function resetAll() {
@@ -926,6 +928,7 @@
       });
       updateRarityButton();
       loadData("figures", document.getElementById("btnFigures"));
+      selectCharacter("zane");
     </script>
   </body>
 </html>

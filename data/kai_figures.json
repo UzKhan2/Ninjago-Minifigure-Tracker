@@ -1,22 +1,22 @@
 [
   {
-    "FigureID": "85863PB055",
-    "FigureName": "Microfigure Ninjago Zane",
+    "FigureID": "85863PB054",
+    "FigureName": "Microfigure Ninjago Kai",
     "Series": "Games",
     "Category": "The Golden Weapons",
     "Year": "2011",
-    "Rarity": "Common",
+    "Rarity": "null",
     "Sets": "1",
     "SpecialEdition": "No"
   },
   {
-    "FigureID": "NJO0001",
-    "FigureName": "Zane - The Golden Weapons",
-    "Series": "Ninjago",
-    "Category": "The Golden Weapons",
-    "Year": "2011",
-    "Rarity": "Rare",
-    "Sets": "5",
-    "SpecialEdition": "No"
+    "FigureID": "null",
+    "FigureName": "null",
+    "Series": "null",
+    "Category": "null",
+    "Year": "null",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
   }
 ]

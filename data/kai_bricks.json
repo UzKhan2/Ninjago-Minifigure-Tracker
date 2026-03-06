@@ -1,21 +1,71 @@
 [
   {
-    "FigureID": "98138pb046",
-    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Zane Pattern",
+    "FigureID": "98138pb048",
+    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Kai Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Bricks",
     "Year": "2016",
+    "Sets": 2,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "3069pb0721",
+    "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game NRG Kai Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2017",
     "Sets": 1,
     "Rarity": "Common"
   },
   {
-    "FigureID": "3068pb1026",
-    "FigureName": "Tile 2 x 2 with Minifigure Blueprint and 'ZANE' Pattern",
+    "FigureID": "57895pb087",
+    "FigureName": "Glass for Window 1 x 4 x 6 with Lloyd, Cole, Kai, 'NINJAGO TONIGHT NT', and Ninjago Logogram 'WHO ARE THE NINJAS' and 'WE TALK TO THE EXPERT' Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Stickers",
-    "Year": "2016",
+    "Year": "2018",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "19729pb029",
+    "FigureName": "Minifigure, Head, Modified Cube with Pixelated Balaclava with Yellow Skin, Black Eyes, and Headband with Gold Trim Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Minifigure",
+    "Year": "2020",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "6179pb233",
+    "FigureName": "Tile, Modified 4 x 4 with Studs on Edge with Video Game Screen, '30393', Flowers, Red Hearts and Ninjago Kai Ninja Minifigure Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2021",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "3069pb1177",
+    "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Kai Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2023",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "90398pb052",
+    "FigureName": "Minifigure, Utensil Statuette / Trophy with Ninjago Kai with Gold and Red Robe and Ninjago Logogram Letter K Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Bricks",
+    "Year": "2024",
     "Sets": 1,
     "Rarity": "Common"
   }

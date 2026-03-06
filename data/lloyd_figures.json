@@ -1,22 +1,912 @@
 [
   {
-    "FigureID": "85863PB055",
-    "FigureName": "Microfigure Ninjago Zane",
-    "Series": "Games",
-    "Category": "The Golden Weapons",
-    "Year": "2011",
-    "Rarity": "Common",
-    "Sets": "1",
+    "FigureID": "NJO0038",
+    "FigureName": "Lloyd Garmadon",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "3",
     "SpecialEdition": "No"
   },
   {
-    "FigureID": "NJO0001",
-    "FigureName": "Zane - The Golden Weapons",
+    "FigureID": "NJO0065",
+    "FigureName": "Lloyd ZX - Shoulder Armor",
     "Series": "Ninjago",
-    "Category": "The Golden Weapons",
-    "Year": "2011",
-    "Rarity": "Rare",
-    "Sets": "5",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "2",
     "SpecialEdition": "No"
+  },
+  {
+    "FigureID": "NJO0070",
+    "FigureName": "Lloyd - The Final Battle (Green Ninja ZX)",
+    "Series": "Ninjago",
+    "Category": "The Final Battle",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0073",
+    "FigureName": "Lloyd (Golden Ninja) - The Final Battle",
+    "Series": "Ninjago",
+    "Category": "The Final Battle",
+    "Year": "2013",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0087",
+    "FigureName": "Lloyd (Techno Robe) - Rebooted, Pearl Gold Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0097",
+    "FigureName": "Lloyd (Techno Robe) - Rebooted",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0104",
+    "FigureName": "Lloyd - Rebooted, Stone Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0108",
+    "FigureName": "Lloyd DX",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0123",
+    "FigureName": "Lloyd (Tournament Robe) - Tournament of Elements",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0129",
+    "FigureName": "Lloyd (Jungle Robe) - Tournament of Elements",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0154",
+    "FigureName": "Lloyd Possessed",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0167",
+    "FigureName": "Lloyd (Deepstone Armor) - Possession",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0207",
+    "FigureName": "Lloyd Garmadon - Green Ninjago Wrap",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0193",
+    "FigureName": "Lloyd - Skybound, Armor",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0209",
+    "FigureName": "Lloyd - Skybound",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0213",
+    "FigureName": "Lloyd - Rebooted with ZX Hood",
+    "Series": "Ninjago",
+    "Category": "General",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0226",
+    "FigureName": "Lloyd (Honor Robe) - Day of the Departed",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0241",
+    "FigureName": "Lloyd - Skybound, Hair",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0253",
+    "FigureName": "Lloyd - Airjitzu",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "COLTLNM03",
+    "FigureName": "Lloyd, The LEGO Ninjago Movie (Minifigure Only without Stand and Accessories)",
+    "Series": "Collectable Minifigures",
+    "Category": "The LEGO Ninjago Movie",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "COLTLNM07",
+    "FigureName": "Lloyd Garmadon, The LEGO Ninjago Movie (Minifigure Only without Stand and Accessories)",
+    "Series": "Collectable Minifigures",
+    "Category": "The LEGO Ninjago Movie",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0283",
+    "FigureName": "Lloyd - The Hands of Time",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0284",
+    "FigureName": "Lloyd - The Hands of Time, Black Armor",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0307",
+    "FigureName": "Lloyd (Honor Robe) - Day of the Departed, Hair, Pearl Gold Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0311",
+    "FigureName": "Lloyd - The LEGO Ninjago Movie, Hair, Arm Printing",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0312",
+    "FigureName": "Lloyd - The LEGO Ninjago Movie, Wrap, Arm Printing",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0338",
+    "FigureName": "Lloyd Garmadon - Hair, Hoodie High School Outfit",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0347",
+    "FigureName": "Lloyd - White Wu-Cru Training Gi",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0374",
+    "FigureName": "Lloyd Garmadon",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0387",
+    "FigureName": "Lloyd - Sons of Garmadon",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0401",
+    "FigureName": "Lloyd - Sons of Garmadon, No Scabbard",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0403",
+    "FigureName": "Lloyd (Spinjitzu Masters) - Sons of Garmadon",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon / Spinjitzu Masters",
+    "Year": "2018",
+    "Rarity": "Common",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0424",
+    "FigureName": "Lloyd - Black Wu-Cru Training Gi",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0425",
+    "FigureName": "Lloyd - Black Wu-Cru Training Gi, Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0426",
+    "FigureName": "Lloyd - Kendo",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0429",
+    "FigureName": "Lloyd - White Wu-Cru Training Gi, Tousled Hair",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0432",
+    "FigureName": "Lloyd - The LEGO Ninjago Movie, Wrap",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0474",
+    "FigureName": "Lloyd - Hunted",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0481",
+    "FigureName": "Lloyd - Hunted, Green Wrap and Neck Bracket",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0490",
+    "FigureName": "Lloyd - Legacy, Dark Green Sash",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0499",
+    "FigureName": "Lloyd (Golden Ninja) - Legacy, Pearl Gold Head",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0514",
+    "FigureName": "Lloyd - Legacy, Sons of Garmadon Robe",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0516",
+    "FigureName": "Lloyd - Hunted, Green Wrap (without Asian Symbol on Wrap)",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0517",
+    "FigureName": "Lloyd - Secrets of the Forbidden Spinjitzu, Hair",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0519",
+    "FigureName": "Lloyd FS",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0533",
+    "FigureName": "Lloyd FS (Spinjitzu Slam)",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0544",
+    "FigureName": "Lloyd - Secrets of the Forbidden Spinjitzu",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0570",
+    "FigureName": "Lloyd - Digi Lloyd, White Shoulder Armor with Scabbard",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0571",
+    "FigureName": "Lloyd - Avatar Lloyd",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0574",
+    "FigureName": "Lloyd - Legacy, Rebooted, Ninjago Logogram 'MANTER' on Torso",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0574A",
+    "FigureName": "Lloyd - Legacy, Rebooted, Ninjago Logogram 'MASTER' on Torso",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0584",
+    "FigureName": "Lloyd (Golden Ninja) - Legacy, Pearl Gold Head, Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0597",
+    "FigureName": "Lloyd - Hunted Robe, Green Wrap Type 4",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "null",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0602",
+    "FigureName": "Lloyd Hero - Clip on Back",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0617",
+    "FigureName": "Lloyd Young, Garmadon - Legacy",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0619",
+    "FigureName": "Lloyd - Spinjitzu Burst",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0627",
+    "FigureName": "Lloyd - Digi Lloyd",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0640",
+    "FigureName": "Lloyd - 10th Anniversary Golden Ninja",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0654",
+    "FigureName": "Lloyd (Golden Ninja) - Legacy, Yellow Head, Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0674",
+    "FigureName": "Lloyd - Young Lloyd, Legacy",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0681",
+    "FigureName": "Lloyd - The Island, Hair with Bandana",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0682",
+    "FigureName": "Lloyd - The Island, Mask and Hair with Bandana, Armor Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0702",
+    "FigureName": "Lloyd - Seabound, Scuba Gear",
+    "Series": "Ninjago",
+    "Category": "Seabound",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0708",
+    "FigureName": "Lloyd - Legacy, Sand Green Sash",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0711",
+    "FigureName": "Lloyd - The Island, Mask and Hair with Bandana",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0715",
+    "FigureName": "Lloyd - Core",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0725",
+    "FigureName": "Lloyd - Core, Hair with Bandana",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0727",
+    "FigureName": "Lloyd - Core, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0746",
+    "FigureName": "Lloyd - Core Spinjitzu",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0767",
+    "FigureName": "Lloyd - Crystalized",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0774",
+    "FigureName": "Lloyd (Golden Oni) - Oni Mask",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0785",
+    "FigureName": "Lloyd - Crystalized, Hair",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0790",
+    "FigureName": "Lloyd (Golden Ninja) - Core",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0796",
+    "FigureName": "Lloyd (Golden Oni) - Hair",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0810",
+    "FigureName": "Lloyd - Dragon Power Lloyd",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 1",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0813",
+    "FigureName": "Lloyd - Dragons Rising, Tunic, Hood",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 1",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "6",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0847",
+    "FigureName": "Lloyd - Core, Hair",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "null",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0848",
+    "FigureName": "Lloyd - Samurai",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0853",
+    "FigureName": "Lloyd - Master Lloyd",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0860",
+    "FigureName": "Lloyd - Dragons Rising, Tunic with Large Armor Plates, Head Wrap, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0876",
+    "FigureName": "Lloyd - Climber Lloyd",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0880",
+    "FigureName": "Lloyd - Master Lloyd, Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0884",
+    "FigureName": "Lloyd - Dragons Rising, Tunic with Large Armor Plates, Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0911",
+    "FigureName": "Lloyd - Dragons Rising, Tournament Armor, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0928",
+    "FigureName": "Lloyd - Dragons Rising, Tunic with Shoulder Armor, Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0929",
+    "FigureName": "Lloyd - Dragons Rising, Tunic, Head Wrap, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0959",
+    "FigureName": "Lloyd - Dragons Rising, Tunic with Shoulder Armor, Head Wrap, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0974",
+    "FigureName": "Lloyd - Dragons Rising, Tunic with Strap and Charm, Dragon Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1005",
+    "FigureName": "Lloyd ZX - Legacy Update",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1029",
+    "FigureName": "Lloyd - Dragon Form",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1041",
+    "FigureName": "Lloyd - Dragons Rising, Tunic with Dragon Head, Hair, Wide Pearl Gold Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "FigureID": "98138pb046",
-    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Zane Pattern",
+    "FigureID": "98138pb039",
+    "FigureName": "Tile, Round 1 x 1 with Ninjago Trapped Jay Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Bricks",
@@ -10,12 +10,52 @@
     "Rarity": "Common"
   },
   {
-    "FigureID": "3068pb1026",
-    "FigureName": "Tile 2 x 2 with Minifigure Blueprint and 'ZANE' Pattern",
+    "FigureID": "3069pb0416",
+    "FigureName": "Tile 1 x 2 with Ninjago Trading Card Game Jay Pattern",
     "BricksetID": "",
     "Series": "Ninjago",
     "Category": "Stickers",
-    "Year": "2016",
+    "Year": "2015",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "3069pb0603",
+    "FigureName": "Tile 1 x 2 with Cell Phone / Smartphone Screen and Jay Walker Selfie Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2017",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "26603pb137",
+    "FigureName": "Tile 2 x 3 with Picture of Ninjago Characters Wu, Nya, Zane, Jay, Cole and Lloyd Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2021",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "90398pb048",
+    "FigureName": "Minifigure, Utensil Statuette / Trophy with Ninjago Jay with Gold and Bright Light Yellow Robe and Ninjago Logogram Letter J Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Bricks",
+    "Year": "2023",
+    "Sets": 1,
+    "Rarity": "Common"
+  },
+  {
+    "FigureID": "87079pb1296",
+    "FigureName": "Tile 2 x 4 with Dark Blue and Black Ninja Microfigure Jay with Ninjago Logogram 'NINJAGO 602' on Yellow Lightning Background Pattern",
+    "BricksetID": "",
+    "Series": "Ninjago",
+    "Category": "Stickers",
+    "Year": "2023",
     "Sets": 1,
     "Rarity": "Common"
   }
