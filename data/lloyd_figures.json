@@ -120,21 +120,21 @@
     "SpecialEdition": "null"
   },
   {
-    "FigureID": "NJO0207",
-    "FigureName": "Lloyd Garmadon - Green Ninjago Wrap",
-    "Series": "Ninjago",
-    "Category": "Rebooted",
-    "Year": "2015",
-    "Rarity": "null",
-    "Sets": "1",
-    "SpecialEdition": "null"
-  },
-  {
     "FigureID": "NJO0193",
     "FigureName": "Lloyd - Skybound, Armor",
     "Series": "Ninjago",
     "Category": "Skybound",
     "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0207",
+    "FigureName": "Lloyd Garmadon - Green Ninjago Wrap",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2015",
     "Rarity": "null",
     "Sets": "1",
     "SpecialEdition": "null"
@@ -191,7 +191,7 @@
   },
   {
     "FigureID": "COLTLNM03",
-    "FigureName": "Lloyd, The LEGO Ninjago Movie (Minifigure Only without Stand and Accessories)",
+    "FigureName": "Lloyd, The LEGO Ninjago Movie",
     "Series": "Collectable Minifigures",
     "Category": "The LEGO Ninjago Movie",
     "Year": "2017",
@@ -201,7 +201,7 @@
   },
   {
     "FigureID": "COLTLNM07",
-    "FigureName": "Lloyd Garmadon, The LEGO Ninjago Movie (Minifigure Only without Stand and Accessories)",
+    "FigureName": "Lloyd Garmadon, The LEGO Ninjago Movie",
     "Series": "Collectable Minifigures",
     "Category": "The LEGO Ninjago Movie",
     "Year": "2017",
@@ -315,7 +315,7 @@
     "Series": "Ninjago",
     "Category": "Sons of Garmadon / Spinjitzu Masters",
     "Year": "2018",
-    "Rarity": "Common",
+    "Rarity": "null",
     "Sets": "1",
     "SpecialEdition": "null"
   },

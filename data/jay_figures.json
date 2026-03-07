@@ -1,22 +1,842 @@
 [
   {
-    "FigureID": "null",
-    "FigureName": "null",
-    "Series": "null",
-    "Category": "null",
+    "FigureID": "85863PB051",
+    "FigureName": "Microfigure Ninjago Jay",
+    "Series": "Games",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "No"
+  },
+  {
+    "FigureID": "NJO0004",
+    "FigureName": "Jay - The Golden Weapons",
+    "Series": "Ninjago",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "6",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0016",
+    "FigureName": "Jay DX",
+    "Series": "Ninjago",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0034",
+    "FigureName": "Jay ZX",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0043",
+    "FigureName": "Jay Kendo",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0047",
+    "FigureName": "Jay ZX - Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0061",
+    "FigureName": "Jay NRG",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0079",
+    "FigureName": "Jay - The Final Battle, Jet Pack",
+    "Series": "Ninjago",
+    "Category": "The Final Battle",
+    "Year": "2013",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0089",
+    "FigureName": "Jay (Techno Robe) - Rebooted",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0103",
+    "FigureName": "Jay (Techno Robe) - Rebooted, Flat Silver Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0128",
+    "FigureName": "Jay (Jungle Robe) - Tournament of Elements",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0137",
+    "FigureName": "Jay - Sleeveless with Bandana",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0152",
+    "FigureName": "Jay (Deepstone Armor) - Possession",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0160",
+    "FigureName": "Jay (Airjitzu) - Possession",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0162",
+    "FigureName": "Jay - Rebooted with Silver Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0184",
+    "FigureName": "Jay (Deepstone Armor) - Possession, Lightning Pack without Sticker",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0184S",
+    "FigureName": "Jay (Deepstone Armor) - Possession, Lightning Pack with Yellow Danger Stripes and Gold Lightning Reactor Pattern (Sticker)",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0192",
+    "FigureName": "Jay - Skybound, Pirate",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0210",
+    "FigureName": "Jay - Skybound",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0214",
+    "FigureName": "Jay - Rebooted with ZX Hood",
+    "Series": "Ninjago",
+    "Category": "General",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0216",
+    "FigureName": "Jay (Jungle Robe) - Tournament of Elements with Armor",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
     "Year": "null",
     "Rarity": "null",
     "Sets": "null",
     "SpecialEdition": "null"
   },
   {
-    "FigureID": "null",
-    "FigureName": "null",
-    "Series": "null",
-    "Category": "null",
+    "FigureID": "NJO0224",
+    "FigureName": "Jay (Honor Robe) - Day of the Departed, Hair, Blue Mask",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0232",
+    "FigureName": "Jay - Rebooted, Stone Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
     "Year": "null",
     "Rarity": "null",
     "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0248",
+    "FigureName": "Jay - Skybound, Dual Sided Head",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0249",
+    "FigureName": "Jay - Tournament of Elements, Bandana and Scabbard",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0258",
+    "FigureName": "Jay (Honor Robe) - Day of the Departed",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0272",
+    "FigureName": "Jay (Tournament Robe) - Tournament of Elements",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "COLTLNM06",
+    "FigureName": "Jay Walker, The LEGO Ninjago Movie",
+    "Series": "Collectable Minifigures",
+    "Category": "The LEGO Ninjago Movie",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0281",
+    "FigureName": "Jay - The Hands of Time",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0282",
+    "FigureName": "Jay - The Hands of Time, Black Armor",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0287",
+    "FigureName": "Jay (Honor Robe) - Day of the Departed, Hair, Pearl Gold Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0313",
+    "FigureName": "Jay - The LEGO Ninjago Movie",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0314",
+    "FigureName": "Jay - The LEGO Ninjago Movie, Hair",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0348",
+    "FigureName": "Jay - White Wu-Cru Training Gi",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0389",
+    "FigureName": "Jay - Sons of Garmadon",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0407",
+    "FigureName": "Jay (Spinjitzu Masters) - Sons of Garmadon",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon / Spinjitzu Masters",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0448",
+    "FigureName": "Jay - Black Wu-Cru Training Gi",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0451",
+    "FigureName": "Jay (Dragon Masters) - Hunted",
+    "Series": "Ninjago",
+    "Category": "Hunted / Dragon Masters",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0459",
+    "FigureName": "Jay with Armor - Hunted",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0486",
+    "FigureName": "Jay - Future Jay",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0489",
+    "FigureName": "Jay - Legacy",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "8",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0509",
+    "FigureName": "Jay - Hunted",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0534",
+    "FigureName": "Jay FS (Spinjitzu Slam)",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0536",
+    "FigureName": "Jay FS",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0548",
+    "FigureName": "Jay - Secrets of the Forbidden Spinjitzu",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0563",
+    "FigureName": "Jay - Digi Jay, Shoulder Armor with Scabbard",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0569",
+    "FigureName": "Jay - Avatar Jay",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0576",
+    "FigureName": "Jay - Legacy, Rebooted, Ninjago Logogram 'MANTER' on Torso",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0576A",
+    "FigureName": "Jay - Legacy, Rebooted, Ninjago Logogram 'MASTER' on Torso, Hair",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0595",
+    "FigureName": "Jay - Merchant Jay",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0598",
+    "FigureName": "Jay - Legacy, Pearl Dark Gray Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "null",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0601",
+    "FigureName": "Jay Hero - Clip on Back",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0615",
+    "FigureName": "Jay - Legacy, Pearl Gold Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0633",
+    "FigureName": "Jay - Digi Jay",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0634",
+    "FigureName": "Jay - 10th Anniversary Golden Ninja",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0648",
+    "FigureName": "Jay - Legacy, White Tunic with Blue Trim and Stripes",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0655",
+    "FigureName": "Jay - Urban Jay",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0669",
+    "FigureName": "Jay - Legacy Dragon Suit",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0679",
+    "FigureName": "Jay - The Island, Mask and Hair with Bandana, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0688",
+    "FigureName": "Jay - Legacy, Rebooted, Ninjago Logogram 'MASTER' on Torso, Wrap",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0692",
+    "FigureName": "Jay - The Island, Mask and Hair with Bandana",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0701",
+    "FigureName": "Jay - Seabound, Scuba Gear",
+    "Series": "Ninjago",
+    "Category": "Seabound",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0722",
+    "FigureName": "Jay - Core, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0729",
+    "FigureName": "Jay - Core, Hair",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0744",
+    "FigureName": "Jay - Core, Hair, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0748",
+    "FigureName": "Jay - Core Spinjitzu",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0755",
+    "FigureName": "Jay (Golden Dragon)",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0764",
+    "FigureName": "Jay - Crystalized",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0775",
+    "FigureName": "Jay (Golden Ninja) - Crystalized",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0786",
+    "FigureName": "Jay - Core",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0797",
+    "FigureName": "Jay (Golden Dragon) without Wings",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "null",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0814",
+    "FigureName": "Jay - Dragons Rising, Hood",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 1",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0852",
+    "FigureName": "Jay - Dragons Rising, Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0873",
+    "FigureName": "Jay - Climber Jay",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0892",
+    "FigureName": "Jay - Evil Jay, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0941",
+    "FigureName": "Rogue (Jay) - Dark Blue Hat, Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0945",
+    "FigureName": "Jay - Evil Jay",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0986",
+    "FigureName": "Rogue (Jay) - Dark Blue Hat",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0987",
+    "FigureName": "Rogue (Jay) - Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0995",
+    "FigureName": "Rogue (Jay) - Black Hat",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0998",
+    "FigureName": "Jay ZX - Legacy Update",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1017",
+    "FigureName": "Jay ZX - Legacy Update, Aviator Cap, Neck Bracket",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1047",
+    "FigureName": "Jay - Dragon Form",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1049",
+    "FigureName": "Jay - Dragons Rising, Tunic with Dragon Head, Hair",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
     "SpecialEdition": "null"
   }
 ]

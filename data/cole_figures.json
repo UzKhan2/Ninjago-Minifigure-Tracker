@@ -1,8 +1,208 @@
 [
   {
-    "FigureID": "null",
-    "FigureName": "null",
-    "Series": "null",
+    "FigureID": "85863PB050",
+    "FigureName": "Microfigure Ninjago Cole",
+    "Series": "Games",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "No"
+  },
+  {
+    "FigureID": "NJO0006",
+    "FigureName": "Cole - The Golden Weapons",
+    "Series": "Ninjago",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0015",
+    "FigureName": "Cole DX",
+    "Series": "Ninjago",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0039",
+    "FigureName": "Cole ZX - Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0041",
+    "FigureName": "Cole Kendo",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0054",
+    "FigureName": "Cole ZX",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0057",
+    "FigureName": "Cole NRG",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0080",
+    "FigureName": "Cole - The Final Battle",
+    "Series": "Ninjago",
+    "Category": "The Final Battle",
+    "Year": "2013",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0090",
+    "FigureName": "Cole (Techno Robe) - Rebooted",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0114",
+    "FigureName": "Cole (Tournament Robe) - Tournament of Elements",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0114A",
+    "FigureName": "Cole (Tournament Robe) - Tournament of Elements, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "null",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0124",
+    "FigureName": "Cole (Jungle Robe) - Tournament of Elements",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0139",
+    "FigureName": "Cole - Rebooted, Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0140",
+    "FigureName": "Cole (Deepstone Armor) - Possession",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0157",
+    "FigureName": "Cole (Airjitzu) - Possession",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0199",
+    "FigureName": "Cole",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0199A",
+    "FigureName": "Cole - Skybound with Neck Bracket and Modified Tile",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0201",
+    "FigureName": "Cole - Skybound, Ghost, Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0202",
+    "FigureName": "Cole - Knee Pads with Scabbard",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0242",
+    "FigureName": " Cole - Skybound, Ghost, Hair",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0250",
+    "FigureName": "Cole - Knee Pads, Armor, Hair",
+    "Series": "Ninjago",
     "Category": "null",
     "Year": "null",
     "Rarity": "null",
@@ -10,13 +210,553 @@
     "SpecialEdition": "null"
   },
   {
-    "FigureID": "null",
-    "FigureName": "null",
-    "Series": "null",
+    "FigureID": "NJO0256",
+    "FigureName": "Cole (Honor Robe) - Day of the Departed",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0262",
+    "FigureName": "Cole RX",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0270",
+    "FigureName": "Cole - Rebooted, Shoulder Armor, Hair",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "null",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0273",
+    "FigureName": "Cole - Rebooted, Stone Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "COLTLNM08",
+    "FigureName": "Cole, The LEGO Ninjago Movie",
+    "Series": "Collectable Minifigures",
+    "Category": "The LEGO Ninjago Movie",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0280",
+    "FigureName": "Cole - The Hands of Time, Black Armor",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0297",
+    "FigureName": "Cole (Honor Robe) - Day of the Departed, Hair, Black Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0304",
+    "FigureName": "Cole - The Hands of Time",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0322",
+    "FigureName": "Cole - The LEGO Ninjago Movie, Arms with Cuffs",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0323",
+    "FigureName": "Cole - The LEGO Ninjago Movie, Arms with Cuffs, Hair",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0345",
+    "FigureName": "Cole - White Wu-Cru Training Gi",
+    "Series": "Ninjago",
     "Category": "null",
     "Year": "null",
     "Rarity": "null",
     "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0363",
+    "FigureName": "Cole - The LEGO Ninjago Movie",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0386",
+    "FigureName": "Cole - Sons of Garmadon with Scabbard",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0408",
+    "FigureName": "Cole (Spinjitzu Masters) - Sons of Garmadon",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon / Spinjitzu Masters",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0436",
+    "FigureName": "Cole, Equalizer Bars",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0447",
+    "FigureName": "Cole - Black Wu-Cru Training Gi",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0449",
+    "FigureName": "Cole (Dragon Masters) - Hunted",
+    "Series": "Ninjago",
+    "Category": "Hunted / Dragon Masters",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0455",
+    "FigureName": "Cole - Sons of Garmadon",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0460",
+    "FigureName": "Cole - Hunted, Orange Asian Symbol on Bandana",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0472",
+    "FigureName": "Cole - Hunted, Gold Asian Symbol on Bandana",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0493",
+    "FigureName": "Cole - Legacy",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0532",
+    "FigureName": "Cole - Secrets of the Forbidden Spinjitzu",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0546",
+    "FigureName": "Cole FS",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0551",
+    "FigureName": " Cole - Legacy, Sons of Garmadon Robe",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0559",
+    "FigureName": "Cole - Avatar Cole",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0575",
+    "FigureName": "Cole - Legacy, Rebooted, Ninjago Logogram 'MANTER' on Torso",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0575A",
+    "FigureName": "Cole - Legacy, Rebooted, Ninjago Logogram 'MASTER' on Torso",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0579",
+    "FigureName": "Cole - Digi Cole",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0588",
+    "FigureName": "Cole - Digi Cole, Shoulder Armor with Scabbard",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0606",
+    "FigureName": "Cole Hero - Clip on Back",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0612",
+    "FigureName": "Cole - Spinjitzu Burst",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0618",
+    "FigureName": "Cole - Legacy, Pearl Gold Armor Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0625",
+    "FigureName": "Cole Hero",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0645",
+    "FigureName": "Cole - Legacy, Orange Bandana",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0651",
+    "FigureName": "Cole - 10th Anniversary Golden Ninja",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0672",
+    "FigureName": "Cole - Urban Cole",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0678",
+    "FigureName": "Cole - The Island, Mask and Hair with Bandana",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0700",
+    "FigureName": "Cole - Seabound, Scuba Gear",
+    "Series": "Ninjago",
+    "Category": "Seabound",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0720",
+    "FigureName": "Cole - Core, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0758",
+    "FigureName": "Cole (Golden Ninja) - Crystalized",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0781",
+    "FigureName": "Cole (Golden Dragon)",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0782",
+    "FigureName": "Cole - Crystalized",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0816",
+    "FigureName": "Cole - Dragons Rising, Tunic, Hood",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 1",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0863",
+    "FigureName": "Cole - Dragons Rising, Tunic with Large Armor Plates, Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0888",
+    "FigureName": "Cole - Climber Cole",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0894",
+    "FigureName": "Cole - Dragons Rising, Tournament Armor, Orange Bandana",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0900",
+    "FigureName": "Cole - Mech Cole",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0909",
+    "FigureName": "Cole - Dragons Rising, Tournament Armor, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0936",
+    "FigureName": "Cole - Dragons Rising, Tunic with Shoulder Armor, Head Wrap, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0970",
+    "FigureName": "Cole - Dragons Rising, Tunic with Strap and Charm, Dragon Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0985",
+    "FigureName": "Cole - Dragons Rising, Tournament Armor, Black Bandana",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1004",
+    "FigureName": "Cole ZX - Legacy Update",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1027",
+    "FigureName": "Cole ZX - Legacy Update, Hair",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1035",
+    "FigureName": "Cole - Dragon Form",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1038",
+    "FigureName": "Cole - Dragons Rising, Tunic with Dragon Head, Hair, Wide Pearl Gold Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
     "SpecialEdition": "null"
   }
 ]

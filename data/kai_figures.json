@@ -10,13 +10,893 @@
     "SpecialEdition": "No"
   },
   {
-    "FigureID": "null",
-    "FigureName": "null",
-    "Series": "null",
-    "Category": "null",
+    "FigureID": "NJO0007",
+    "FigureName": "Kai - The Golden Weapons",
+    "Series": "Ninjago",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0009",
+    "FigureName": "Kai DX",
+    "Series": "Ninjago",
+    "Category": "The Golden Weapons",
+    "Year": "2011",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0032",
+    "FigureName": "Kai ZX - Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0037",
+    "FigureName": "Kai ZX - Ninja Rocket Pack",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0052",
+    "FigureName": "Kai Kendo",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0055",
+    "FigureName": "Kai NRG",
+    "Series": "Ninjago",
+    "Category": "Rise of the Snakes",
+    "Year": "2012",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0071",
+    "FigureName": "Kai - The Final Battle",
+    "Series": "Ninjago",
+    "Category": "The Final Battle",
+    "Year": "2013",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0091",
+    "FigureName": "Kai (Techno Robe) - Rebooted",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2014",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "DIM011",
+    "FigureName": "Kai (Jungle Robe) - Tournament of Elements",
+    "Series": "Dimensions",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0117",
+    "FigureName": "Kai (Tournament Robe) - Tournament of Elements",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0119",
+    "FigureName": "Kai - Rebooted with Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0121",
+    "FigureName": "Kai (Jungle Robe) - Tournament of Elements, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0148",
+    "FigureName": "Kai (Deepstone Armor) - Possession",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0153",
+    "FigureName": "Kai (Deepstone Armor) - Possession, Shoulder Armor, Wrap",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0161",
+    "FigureName": "Kai (Airjitzu) - Possession",
+    "Series": "Ninjago",
+    "Category": "Possession",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0186",
+    "FigureName": "Kai - Rebooted, Stone Armor",
+    "Series": "Ninjago",
+    "Category": "Rebooted",
+    "Year": "2015",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0187",
+    "FigureName": "Kai - Tournament of Elements, Scabbard, Tousled Hair",
+    "Series": "Ninjago",
+    "Category": "Tournament of Elements",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0194",
+    "FigureName": "Kai - Skybound with Gold Scabbard",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0198",
+    "FigureName": "Kai - Skybound",
+    "Series": "Ninjago",
+    "Category": "Skybound",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0205",
+    "FigureName": "Kai - Rebooted with ZX Hood",
+    "Series": "Ninjago",
+    "Category": "General",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0261",
+    "FigureName": "Kai (Deepstone Armor) - Possession, Shoulder Armor, Hair",
+    "Series": "Ninjago",
+    "Category": "Possession",
     "Year": "null",
     "Rarity": "null",
     "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0265",
+    "FigureName": "Kai (Honor Robe) - Day of the Departed",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2016",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "COLTLNM01",
+    "FigureName": "Kai Kendo, The LEGO Ninjago Movie",
+    "Series": "Collectable Minifigures",
+    "Category": "The LEGO Ninjago Movie",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0274",
+    "FigureName": "Kai - The Hands of Time",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0277",
+    "FigureName": "Kai - The Hands of Time, Black Armor, Dual Sided Head",
+    "Series": "Ninjago",
+    "Category": "The Hands of Time",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0305",
+    "FigureName": "Kai (Honor Robe) - Day of the Departed, Armor",
+    "Series": "Ninjago",
+    "Category": "Day of the Departed",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0316",
+    "FigureName": "Kai - The LEGO Ninjago Movie, Pearl Dark Gray Katana Holder",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0317",
+    "FigureName": "Kai - The LEGO Ninjago Movie, Hair, Flat Silver Scabbard",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0327",
+    "FigureName": "Kai - The LEGO Ninjago Movie, Hair, Red Legs and Jacket, Bandage on Forehead",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0346",
+    "FigureName": "Kai - White Wu-Cru Training Gi",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0349",
+    "FigureName": "Kai - The LEGO Ninjago Movie, Fire Mech Driver",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0360",
+    "FigureName": "Kai - The LEGO Ninjago Movie, Hair, Pearl Dark Gray Scabbard",
+    "Series": "The LEGO Ninjago Movie",
+    "Category": "General",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0391",
+    "FigureName": "Kai - Sons of Garmadon, Ninjago Logogram Letter H on Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0391A",
+    "FigureName": "Kai - Sons of Garmadon, Plain Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0406",
+    "FigureName": "Kai (Spinjitzu Masters) - Sons of Garmadon",
+    "Series": "Ninjago",
+    "Category": "Sons of Garmadon / Spinjitzu Masters",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0420",
+    "FigureName": "Kai (Golden Power)",
+    "Series": "Ninjago",
+    "Category": "Other",
+    "Year": "2017",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0452",
+    "FigureName": "Kai (Dragon Masters) - Hunted",
+    "Series": "Ninjago",
+    "Category": "Hunted / Dragon Masters",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0457",
+    "FigureName": "Kai - Hunted, Flat Silver Side-Scabbard",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0469",
+    "FigureName": "Kai - Hunted",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0473",
+    "FigureName": "Kai - Hunted, Pearl Dark Gray Side-Scabbard",
+    "Series": "Ninjago",
+    "Category": "Hunted",
+    "Year": "2018",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0492",
+    "FigureName": "Kai - Legacy",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "13",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0513",
+    "FigureName": "Kai - Legacy, Sons of Garmadon Robe",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0526",
+    "FigureName": "Kai - Secrets of the Forbidden Spinjitzu, Legacy Robe",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0530",
+    "FigureName": "Kai FS (Spinjitzu Slam)",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0531",
+    "FigureName": "Kai - Secrets of the Forbidden Spinjitzu",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0538",
+    "FigureName": "Kai FS",
+    "Series": "Ninjago",
+    "Category": "Secrets of the Forbidden Spinjitzu",
+    "Year": "2019",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "MIN077",
+    "FigureName": "Kai - Minecraft",
+    "Series": "Minecraft",
+    "Category": "General",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0567",
+    "FigureName": "Kai - Avatar Kai",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0568",
+    "FigureName": "Kai - Digi Kai, Shoulder Armor with Scabbard",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0605",
+    "FigureName": "Kai Hero - Clip on Back",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0613",
+    "FigureName": "Kai - Legacy, Pearl Gold Armor Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0620",
+    "FigureName": "Kai - Spinjitzu Burst",
+    "Series": "Ninjago",
+    "Category": "Master of the Mountain",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0628",
+    "FigureName": "Kai - Digi Kai",
+    "Series": "Ninjago",
+    "Category": "Prime Empire",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0630",
+    "FigureName": "Kai - Legacy, Rebooted Robe",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2020",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0643",
+    "FigureName": "Kai - Legacy, White Shirt",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0650",
+    "FigureName": "Kai - 10th Anniversary Golden Ninja",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0680",
+    "FigureName": "Kai - The Island, Mask and Hair with Bandana",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0695",
+    "FigureName": "Kai - Seabound, Scuba Gear",
+    "Series": "Ninjago",
+    "Category": "Seabound",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0706",
+    "FigureName": "Kai - The Island, Mask, Hair with Bandana, Neck Bracket",
+    "Series": "Ninjago",
+    "Category": "The Island",
+    "Year": "2021",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0721",
+    "FigureName": "Kai - Core, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0736",
+    "FigureName": "Kai - Core, Hair",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0739",
+    "FigureName": "Kai - Core, Hair, Shoulder Pad",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0745",
+    "FigureName": "Kai - Core",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "5",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0747",
+    "FigureName": "Kai - Core Spinjitzu",
+    "Series": "Ninjago",
+    "Category": "Core",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0757",
+    "FigureName": "Kai (Golden Dragon)",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0762",
+    "FigureName": "Kai - Crystalized",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0772",
+    "FigureName": "Kai (Golden Ninja) - Crystalized",
+    "Series": "Ninjago",
+    "Category": "Crystalized",
+    "Year": "2022",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0808",
+    "FigureName": "Kai - Dragon Power Kai",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 1",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0811",
+    "FigureName": "Kai - Dragons Rising, Tunic, Hood",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 1",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "6",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0830",
+    "FigureName": "Kai - Blacksmith Kai",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 1",
+    "Year": "2023",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0858",
+    "FigureName": "Kai - Dragons Rising, Tunic with Large Armor Plates, Dark Red and Red Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0864",
+    "FigureName": "Kai - Dragons Rising, Tunic with Large Armor Plates, Red and Pearl Gold Head Wrap, Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0870",
+    "FigureName": "Kai - Climber Kai",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "4",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0882",
+    "FigureName": "Kai - Dragons Rising, Hair, Shoulder Pads",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0890",
+    "FigureName": "Kai - Dragons Rising, Tunic with Large Armor Plates, Red and Pearl Gold Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0896",
+    "FigureName": "Kai - Dragons Rising, Tournament Armor, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2024",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0925",
+    "FigureName": "Kai - Dragons Rising, Tunic with Shoulder Armor, Red and Pearl Gold Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0930",
+    "FigureName": "Kai - Dragons Rising, Tunic with Shoulder Armor, Dark Red and Red Head Wrap",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "2",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0947",
+    "FigureName": "Kai - Dragons Rising, Tournament Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 2",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0961",
+    "FigureName": "Kai - Dragons Rising, Tunic with Shoulder Armor, Dark Red and Red Head Wrap, Scabbard",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0967",
+    "FigureName": "Kai - Dragons Rising, Tunic with Strap and Charm, Dragon Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "3",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0990",
+    "FigureName": "Kai - Master of Fire",
+    "Series": "Ninjago",
+    "Category": "Ninjago Legends",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0994",
+    "FigureName": "Kai - Dragons Rising, Tunic with Shoulder Armor, Hair",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 3",
+    "Year": "2025",
+    "Rarity": "null",
+    "Sets": "null",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO0997",
+    "FigureName": "Kai ZX - Legacy Update",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1008",
+    "FigureName": "Kai - Blacksmith, Dark Orange Apron",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1015",
+    "FigureName": "Kai ZX - Legacy Update, Hair",
+    "Series": "Ninjago",
+    "Category": "Legacy",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1040",
+    "FigureName": "Kai - Dragons Rising, Tunic with Dragon Head, Helmet",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1046",
+    "FigureName": "Kai - Dragons Rising, Tunic with Dragon Head, Hair, Wide Pearl Gold Shoulder Armor",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
+    "SpecialEdition": "null"
+  },
+  {
+    "FigureID": "NJO1048",
+    "FigureName": "Kai - Dragon Form",
+    "Series": "Ninjago",
+    "Category": "Dragons Rising Season 4",
+    "Year": "2026",
+    "Rarity": "null",
+    "Sets": "1",
     "SpecialEdition": "null"
   }
 ]

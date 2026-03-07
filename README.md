@@ -10,4 +10,5 @@ Tracker for my Collection of Zane Minifigures
 - [ ] Change theme color to character
 - [ ] Animate transition when switching
 - [ ] Add character icon next to name
+- [ ] Check what tabs its default to
 - [ ] Cache JSON so switching is instant

@@ -893,22 +893,41 @@
       }
 
       function exportCollection() {
-        const blob = new Blob([JSON.stringify(owned, null, 2)], {
+        const characters = ["zane", "lloyd", "kai", "cole", "jay"];
+        const fullCollection = {};
+
+        characters.forEach((char) => {
+          const data = localStorage.getItem(`owned_${char}`);
+          fullCollection[char] = data ? JSON.parse(data) : {};
+        });
+
+        const blob = new Blob([JSON.stringify(fullCollection, null, 2)], {
           type: "application/json",
         });
+
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = "collection.json";
+        a.download = "ninjago_collection_backup.json";
         a.click();
       }
 
       function importCollection(e) {
         const reader = new FileReader();
+
         reader.onload = () => {
-          owned = JSON.parse(reader.result);
-          save();
+          const data = JSON.parse(reader.result);
+
+          Object.keys(data).forEach((char) => {
+            localStorage.setItem(`owned_${char}`, JSON.stringify(data[char]));
+          });
+
+          // reload current character data
+          owned =
+            JSON.parse(localStorage.getItem(`owned_${currentCharacter}`)) || {};
+
           filterAndRender();
         };
+
         reader.readAsText(e.target.files[0]);
       }
 
