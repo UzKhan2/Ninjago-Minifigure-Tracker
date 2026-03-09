@@ -104,9 +104,9 @@
     "FigureName": "Cole (Tournament Robe) - Tournament of Elements, Scabbard",
     "Series": "Ninjago",
     "Category": "Tournament of Elements",
-    "Year": "null",
+    "Year": "2015",
     "Rarity": "null",
-    "Sets": "null",
+    "Sets": "2",
     "SpecialEdition": "null"
   },
   {
@@ -123,7 +123,7 @@
     "FigureID": "NJO0139",
     "FigureName": "Cole - Rebooted, Shoulder Armor",
     "Series": "Ninjago",
-    "Category": "Possession",
+    "Category": "Rebooted",
     "Year": "2015",
     "Rarity": "null",
     "Sets": "1",
@@ -147,16 +147,6 @@
     "Year": "2015",
     "Rarity": "null",
     "Sets": "1",
-    "SpecialEdition": "null"
-  },
-  {
-    "FigureID": "NJO0199",
-    "FigureName": "Cole",
-    "Series": "Ninjago",
-    "Category": "Skybound",
-    "Year": "2016",
-    "Rarity": "null",
-    "Sets": "null",
     "SpecialEdition": "null"
   },
   {
@@ -203,10 +193,10 @@
     "FigureID": "NJO0250",
     "FigureName": "Cole - Knee Pads, Armor, Hair",
     "Series": "Ninjago",
-    "Category": "null",
-    "Year": "null",
+    "Category": "Skybound",
+    "Year": "2016",
     "Rarity": "null",
-    "Sets": "null",
+    "Sets": "2",
     "SpecialEdition": "null"
   },
   {
@@ -234,9 +224,9 @@
     "FigureName": "Cole - Rebooted, Shoulder Armor, Hair",
     "Series": "Ninjago",
     "Category": "Rebooted",
-    "Year": "null",
+    "Year": "2015",
     "Rarity": "null",
-    "Sets": "null",
+    "Sets": "1",
     "SpecialEdition": "null"
   },
   {
@@ -273,7 +263,7 @@
     "FigureID": "NJO0297",
     "FigureName": "Cole (Honor Robe) - Day of the Departed, Hair, Black Shoulder Armor",
     "Series": "Ninjago",
-    "Category": "The Hands of Time",
+    "Category": "Day of the Departed",
     "Year": "2017",
     "Rarity": "null",
     "Sets": "1",
@@ -313,10 +303,10 @@
     "FigureID": "NJO0345",
     "FigureName": "Cole - White Wu-Cru Training Gi",
     "Series": "Ninjago",
-    "Category": "null",
-    "Year": "null",
+    "Category": "Other",
+    "Year": "2017",
     "Rarity": "null",
-    "Sets": "null",
+    "Sets": "9",
     "SpecialEdition": "null"
   },
   {
